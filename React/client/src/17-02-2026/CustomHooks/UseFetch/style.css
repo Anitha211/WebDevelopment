@@ -1,0 +1,42 @@
+/* .container{
+   padding: 20px;
+   background-color: lightskyblue;
+} */
+
+.title{
+    text-align: center;
+    color:brown;
+    margin-bottom: 30px;
+}
+
+/* .error{
+    text-align: center;
+    color:red;
+    font-weight: bold;
+    margin-bottom: 20px;
+} */
+
+.user1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+}
+
+
+.user{
+    background-color: bisque;
+    padding:15px;
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+.user h2{
+    color:blue;
+    margin-bottom: 8px;
+}
+
+.user h3{
+    color:darkorange;
+    margin: 4px;
+}

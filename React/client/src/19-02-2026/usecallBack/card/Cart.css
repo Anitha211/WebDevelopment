@@ -1,0 +1,74 @@
+
+.Container{
+    text-align: center;
+    padding: 30px;
+}
+
+.counter{
+    color: rgb(10, 10, 10);
+}
+
+.button{
+    background-color: rgb(62, 99, 7);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 3px solid black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.button:hover{
+    background-color: rgb(137, 201, 42);
+}
+
+.title{
+    margin-top: 30px;
+    color:blue;
+}
+
+.totalprice{
+    color:red;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.Card{
+    background-color: rgb(226, 141, 141);
+    padding: 15px;
+    border-radius: 15px;
+    /* border: 2px solid rgb(226, 141, 141); */
+}
+
+.name{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.price{
+    color: brown;
+    margin-bottom: 10px;
+}
+
+.btn1{
+    background-color: blue;
+    color: white; 
+    font-size: 20px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color:rgb(56, 56, 182);
+}
+

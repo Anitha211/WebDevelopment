@@ -1,0 +1,40 @@
+#id{
+            color: blueviolet !important;
+        }
+
+h4{
+    color:blue !important ;
+    background-color:darkgray !important;
+    border: 20px black;
+    width: 20%  ;
+}
+  
+.text{
+    color:greenyellow ;
+    background-color: aquamarine;
+} 
+
+#id1{
+    color: crimson;
+    background-color: blanchedalmond;
+} 
+
+.a{
+    color:orangered;
+}
+
+.a:hover{
+
+    color:black !important;
+}
+
+.a::first-letter{ 
+
+    color: blue;
+    background-color: rgb(133, 81, 17);
+    font-size: larger;
+}
+
+
+
+

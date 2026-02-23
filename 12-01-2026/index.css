@@ -1,0 +1,100 @@
+ #web{
+                
+                
+                border: 10px solid black;
+                margin: 50px;
+                padding: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+               
+                
+            }
+
+
+/* TASK-1 */
+
+
+    .a{
+        display: flex;
+        flex-direction: column;
+
+    }
+       
+    .l{
+        box-sizing: border-box;
+        background-color: silver;
+        text-align: left;
+        max-width: 500px;
+        padding: 20px;
+        margin:5px;
+    }
+
+    .n{
+
+        box-sizing: border-box;
+        background-color: silver;
+        text-align: center;
+        max-width: 500px;
+        margin: 5px;
+
+    }
+
+    .h{
+
+        box-sizing: border-box;
+        background-color: silver;
+        text-align: center;
+        width: 500px;
+        height: 120px;
+        padding: 40px;
+        margin: 5px;
+
+    }
+
+    .b{
+
+        display: flex;
+        flex-direction:row;
+        
+    }
+
+
+    .s{
+
+        box-sizing: border-box;
+        background-color: silver;
+        text-align: center;
+        height: 300px;
+        width: 10%;
+        padding: 15px;
+        margin-right:5px ;
+        
+
+    }
+
+    .r{
+
+        box-sizing: border-box;
+        background-color: silver;
+        text-align: center;
+        height: 300px;
+        width: 23%; 
+        padding : 15px;
+        margin-left: 5px;
+        
+
+    }
+
+    .c{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .f{
+
+        box-sizing: border-box;
+        background-color: silver;
+        text-align: center;
+        max-width: 500px;
+        margin: 5px;
+
+    }

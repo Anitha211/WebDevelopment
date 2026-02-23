@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+
+    <style>
+     .a{
+        display: grid;
+        align-items: center;
+        background-color: aqua;
+        font-size: 100px;
+        font-weight: bolder;
+     }
+     @media (max-width: 600px){
+        .a{
+            background-color: blue;
+        }
+     }
+
+     @media(min-width: 610px) and (max-width:992px){
+        .a{
+            background-color: blueviolet;
+        }
+     }
+    </style>
+</head>
+<body>
+
+    <div class="a">Resize the screen</div>
+
+    <br>
+    <br>
+    <hr>
+    
+    
+    <div class="container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+    </div>
+
+    <br>
+    <br>
+    <hr>
+
+    <div class="b">
+
+        <div class="box">BOX 1</div>
+        <div class="box">BOX 2</div>
+        <div class="box">BOX 3</div>
+        <div class="box">BOX 4</div>
+        <div class="box">BOX 5</div>
+        <div class="box">BOX 6</div>
+
+    </div>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+    <!-- Orentation types - Portrait, Landscape -->
+
+    <div id="type">
+
+        <div class="o">A</div>
+        <div class="o">B</div>
+        <div class="o">C</div>
+        <div class="o">D</div>
+        <div class="o">E</div>
+
+    </div>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+
+    <!--   -->
+
+     <div class="dashboard">
+
+        <div class="card card1">CARD 1 (span)</div>
+        <div class="card">CARD 2</div>
+        <div class="card">CARD 3</div>
+        <div class="card">CARD 4</div>
+        <div class="card card2">CARD 5 (span)</div>
+        <div class="card card3">CARD 6 (span)</div>
+        
+
+    </div>
+
+    
+    
+
+    
+</body>
+</html>

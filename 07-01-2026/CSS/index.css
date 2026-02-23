@@ -1,0 +1,47 @@
+h2 {
+    color:aquamarine;
+}
+
+h3{
+    color:brown;
+}
+
+.title {
+    color:aqua;
+}
+
+#main {
+    color: burlywood;
+}
+
+div p{
+    color:coral
+}
+
+div + h4{
+    color:darkblue;
+    background-color: aqua;
+}
+
+body {
+    color:rgb(219, 13, 13);
+}
+
+div > p {
+    color:darkgreen;
+}
+
+p.one{
+    color: deeppink;
+    background-color: palegreen;
+    
+}
+
+button{
+    color: darkblue;
+    background-color: cadetblue;
+}
+
+*{
+    color:blueviolet;
+}

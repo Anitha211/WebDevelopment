@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <style>
+        #row{
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 10px;
+        }
+    .l{
+        background-color:burlywood;
+        padding: 2px;
+        margin: 5px;
+        
+        border: 2px solid black;
+        grid-column: 1/4;
+        grid-column-gap: 2px;
+    }
+
+    .n{
+         background-color: burlywood;
+        padding: 2px;
+        margin: 5px;
+        grid-column: 1/4;
+        border: 2px solid black;
+        grid-column-gap: 2px;
+    }
+
+    .h{
+        background-color: burlywood;
+        padding: 2px;
+        margin: 5px;
+        grid-column: 1/4;
+        border: 2px solid black;
+        grid-column-gap: 2px;
+    }
+
+    .s{
+        background-color: burlywood;
+        padding: 2px;
+        margin: 5px;
+        grid-column: 1/2;
+        border: 2px solid black;
+        grid-row-gap: 2px;
+    }
+
+    .r{
+        background-color: burlywood;
+        padding: 20px;
+        margin: 5px;
+        grid-column: 2/4;
+        border: 2px solid black;
+        grid-row-gap: 2px;
+        align-content: center;
+
+    }
+
+    .f{
+        background-color: burlywood;
+        padding: 20px;
+        margin: 5px;
+        grid-column: 1/4;
+        border: 2px solid black;
+        grid-row-gap: 2px;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+    
+
+
+    </style>
+</head>
+<body>
+     <div style=" background-color: rgb(233, 98, 98); width:800px; height:700px; display: grid;" id="row">
+     
+            <div class="l">Logo</div>
+            <div class="n">Navigation</div>
+            <div class="h">Header/Banner</div>
+            
+            <div class="s">Side Bar</div>
+            <div class="r">Body Area</div>
+            
+            <div class="f">Footer</div>
+        
+    </div>
+
+
+  
+
+
+
+
+</body>
+</html>

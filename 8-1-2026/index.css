@@ -1,0 +1,7 @@
+p::first-letter{
+    color: cadetblue;
+}
+p::before{
+    color:coral;
+    background-color: bisque;
+}

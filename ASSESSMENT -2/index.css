@@ -1,0 +1,54 @@
+#r{ 
+    grid-template-columns: 1fr;
+    display: grid;
+    border: 4px solid black;
+    grid-gap: 1px;
+}
+
+.header{
+
+    background-color:rgb(17, 218, 27);
+    text-align: center;
+    font-weight: bold;
+    padding:20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1/4;
+}
+
+.sidebar{
+
+    background-color:rgb(77, 24, 163);
+    text-align: center;
+    font-weight: bold;
+    padding:20px;
+}
+
+/* DESKTOP */
+
+@media(min-width:1024px){
+
+    #r{
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+
+    .sidebar{
+        grid-column: 1/4;
+    }
+
+}
+
+
+/*  */
+/*  */
+
+.card button{
+        
+    background-color: brown;
+    color: black;
+}
+
+.card button:hover{
+
+    background-color: aqua;
+
+}
