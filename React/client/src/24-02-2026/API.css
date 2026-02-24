@@ -1,0 +1,66 @@
+
+.Container{
+    text-align: center;
+    padding:"40px";
+    background-color: honeydew;
+    border: 2px solid rgb(197, 73, 73);
+    border-radius: 40px;
+}
+
+h1{
+    color:red;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.button{
+
+    border: 2px solid rgb(255, 255, 255);
+    padding: 15px;
+    margin: 10px;
+    background-color:blue;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    border-radius: 8px;
+    
+}
+
+.button:hover{
+    background-color: darkblue;
+}
+
+h2{
+    color:purple;
+    text-align: center;
+}
+
+.Card-Container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* width:50%; */
+}
+
+.CARD{
+    background-color: white;
+    width: 520px;
+    margin: 20px ;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid blue;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

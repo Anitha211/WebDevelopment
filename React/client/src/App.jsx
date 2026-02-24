@@ -1,5 +1,4 @@
 import React, { Suspense} from "react";
-import React, { Suspense} from "react";
 // import A from "./Components/A";
 // import B from "./Components/B";
 // import C from "./Components/C";
@@ -61,13 +60,13 @@ import A1 from "./17-02-2026/CustomHooks/UseFetch/A1"
 // import B from "./17-02-2026/CustomHooks/UseCounter/B";
 // import C from "./17-02-2026/CustomHooks/useInput/C";
 
-import A from "./18-02-2026/React.Memo&useMemo/A";
+// import A from "./18-02-2026/React.Memo&useMemo/A";
 import B from "./18-02-2026/React.Memo&useMemo/B"
 import C from "./18-02-2026/React.Memo&useMemo/C"
 import Parent from "./18-02-2026/UsecallBack/Parent";
-import P1 from "./18-02-2026/UsecallBack/Example/P1";
+// import P1 from "./18-02-2026/UsecallBack/Example/P1";
 
-import Cart from "./18-02-2026/UsecallBack/Example2/Cart"
+// import Cart from "./18-02-2026/UsecallBack/Example2/Cart"
 
 // import B from "./13-02-2026/useEffect/useEffect"
 // import Profile from "./16-02-2026 (event Handling)/Profile";
@@ -81,21 +80,27 @@ import Cart from "./18-02-2026/UsecallBack/Example2/Cart"
 // import B from "./17-02-2026/HOC(layout)/B"
 // import Header from "./17-02-2026/HOC(layout)/Header";
 // import Footer from "./17-02-2026/HOC(layout)/Footer";
-import Layout from "./17-02-2026/HOC(layout)/Layout";
+// import Layout from "./17-02-2026/HOC(layout)/Layout";
 
-import A1 from "./17-02-2026/CustomHooks/UseFetch/A1"
+// import A1 from "./17-02-2026/CustomHooks/UseFetch/A1"
 // import A from "./17-02-2026/CustomHooks/UseCounter/A"
 // import B from "./17-02-2026/CustomHooks/UseCounter/B";
 // import C from "./17-02-2026/CustomHooks/useInput/C";
 
-import A from "./18-02-2026/React.Memo&useMemo/A";
-import B from "./18-02-2026/React.Memo&useMemo/B"
-import C from "./18-02-2026/React.Memo&useMemo/C"
-import Parent from "./18-02-2026/UsecallBack/Parent";
+// import A from "./18-02-2026/React.Memo&useMemo/A";
+// import B from "./18-02-2026/React.Memo&useMemo/B"
+// import C from "./18-02-2026/React.Memo&useMemo/C"
+// import Parent from "./18-02-2026/UsecallBack/Parent";
 import P1 from "./18-02-2026/UsecallBack/Example/P1";
 
-import Cart from "./19-02-2026/usecallBack/card/Cart"
-import Todo from "./19-02-2026/usecallBack/Todo/Todo";
+// import Cart from "./19-02-2026/usecallBack/card/Cart"
+// import Todo from "./19-02-2026/usecallBack/Todo/Todo";
+import A from "./23-02-2026/APi/Get&Delete"
+import Get from "./24-02-2026/Get";
+import Post from "./24-02-2026/Post";
+import Put from "./24-02-2026/Put"
+import Patch from "./24-02-2026/Patch";
+import API from "./24-02-2026/Api";
 
 
 function App(){
@@ -104,35 +109,16 @@ function App(){
   return(
    
    
-      <div>
-       {/* <A/> */}
-       
-       {/* <B/> */}
-       
-       <C/>
-       <hr/>
-       <Parent/>
-       <hr/>
-       <P1/>
-       <hr/>
-       <Cart/>
-
-       {/* <A/> */}
-       
-       {/* <B/> */}
-       
-       {/* <C/> */}
-       {/* <hr/> */}
-       {/* <Parent/> */}
-       {/* <hr/> */}
-       <h1 style={{textAlign:"center",margin:"40px"}}>UsecallBack</h1>
-       <P1/>
-       <hr/>
-       <Cart/>
-       <hr/>
-       <Todo/>
-
-       </div>
+    <div>
+          
+          <Get/>
+          <Post/>
+          <Put/>
+          <Patch/>
+          <hr/>
+          <API/>
+          
+    </div>
      
      
     )

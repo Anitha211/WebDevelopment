@@ -43,9 +43,14 @@ function A(){
             <div>
             {data.map((user) => {
                 return (
-                <div key={user.id} 
-                style={{  border:"1px solid black",margin:"10px", padding:"10px",width:"900px",
-                textAlign:"center",alignContent:"center"}}>
+                <div key={user.id} style=
+                {{  border:"1px solid black",
+                    margin:"10px", 
+                    padding:"10px",
+                    width:"900px",
+                    textAlign:"center",
+                    alignContent:"center"
+                }}>
                     <h1>ID: {user.id}</h1>
                     <h2>User Name: {user.username}</h2>
                     <h3>Name: {user.name}</h3>
