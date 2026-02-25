@@ -61,8 +61,8 @@ import A1 from "./17-02-2026/CustomHooks/UseFetch/A1"
 // import C from "./17-02-2026/CustomHooks/useInput/C";
 
 // import A from "./18-02-2026/React.Memo&useMemo/A";
-import B from "./18-02-2026/React.Memo&useMemo/B"
-import C from "./18-02-2026/React.Memo&useMemo/C"
+// import B from "./18-02-2026/React.Memo&useMemo/B"
+// import C from "./18-02-2026/React.Memo&useMemo/C"
 import Parent from "./18-02-2026/UsecallBack/Parent";
 // import P1 from "./18-02-2026/UsecallBack/Example/P1";
 
@@ -95,32 +95,30 @@ import P1 from "./18-02-2026/UsecallBack/Example/P1";
 
 // import Cart from "./19-02-2026/usecallBack/card/Cart"
 // import Todo from "./19-02-2026/usecallBack/Todo/Todo";
-import A from "./23-02-2026/APi/Get&Delete"
+// import A from "./23-02-2026/APi/Get&Delete"
 import Get from "./24-02-2026/Get";
 import Post from "./24-02-2026/Post";
 import Put from "./24-02-2026/Put"
 import Patch from "./24-02-2026/Patch";
 import API from "./24-02-2026/Api";
+import A from "./25-02-2026/UseEffect/A";
+import B from "./25-02-2026/UseEffect/B";
+import C from "./25-02-2026/API Methods/C"
 
 
 function App(){
     
     
   return(
-   
-   
-    <div>
-          
-          <Get/>
-          <Post/>
-          <Put/>
-          <Patch/>
+      <div>
+
+          <A/>
+          <B/>
           <hr/>
-          <API/>
-          
-    </div>
-     
-     
+          <C/>
+
+      </div>
+
     )
 }
 export default App;

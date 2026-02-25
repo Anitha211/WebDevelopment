@@ -7,11 +7,11 @@
     border-radius: 40px;
 }
 
-h1{
+/* h1{
     color:red;
     text-align: center;
     padding-top: 40px;
-}
+} */
 
 .button{
 
@@ -31,10 +31,10 @@ h1{
     background-color: darkblue;
 }
 
-h2{
+/* h2{
     color:purple;
     text-align: center;
-}
+} */
 
 .Card-Container{
    display: flex;
