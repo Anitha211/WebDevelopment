@@ -12,8 +12,6 @@ let slice =createSlice({
            
             state.list = action.payload
             
-            
-
         },
         Text2 : (state,action) => {
            console.log(action.payload);

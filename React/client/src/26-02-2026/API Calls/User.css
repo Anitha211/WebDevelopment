@@ -1,0 +1,71 @@
+.CONTAINER{
+    width:70%;
+    margin: 40px auto;
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.TITLE{
+   text-align: center;
+   font-size: 40px;
+   margin-bottom: 25px;
+   color: #2f3c49
+}
+
+
+.TOP-BTN{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    margin-bottom: 20px;
+}
+
+.BTN{
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    
+}
+
+.BTN:hover{
+    background-color: rgb(236, 122, 145);
+}
+
+.MSG{
+    margin-bottom: 15px;
+    color: blue;
+    text-align: center;
+}
+
+.CARD-CONTAINER{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.CARD{
+    padding:5px;
+    border-radius: 8px;
+    background-color: wheat;
+    margin: 4px;
+    text-align: left;
+}
+
+.CARD h3{
+   color:rgb(20, 20, 20)
+}
+
+.CARD p{
+    margin: 5px 0;
+    color:rgb(31, 30, 30)
+}
+
+.CARD-BTN{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px
+}
+
+

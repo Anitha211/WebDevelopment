@@ -27,7 +27,7 @@ import AB from "./04-02-2026/Redux/AB";
 // import Reducer from "./06-02-2026/Toolkit/Reducer";
 
 // import store from "./09-02-2026/Redux toolkit/Store";
-import Reducer from "./09-02-2026/Redux toolkit/Reducer";
+// import Reducer from "./09-02-2026/Redux toolkit/Reducer";
 
 // import A from "./10-02-2026/useState/Parent"
 // import A1 from "./10-02-2026/Context API/A1"
@@ -103,21 +103,26 @@ import Patch from "./24-02-2026/Patch";
 import API from "./24-02-2026/Api";
 import A from "./25-02-2026/UseEffect/A";
 import B from "./25-02-2026/UseEffect/B";
-import C from "./25-02-2026/API Methods/C"
+import C from "./25-02-2026/API Methods/C";
+
+import store from "./26-02-2026/Redux Toolkit/Store";
+import Reducer from "./26-02-2026/Redux Toolkit/Reducer";
+import Users from "./26-02-2026/API Calls/Users";
 
 
 function App(){
     
     
   return(
-      <div>
+    <div>
+      <Provider store={store}>
+        <Reducer/>
+      </Provider>
 
-          <A/>
-          <B/>
-          <hr/>
-          <C/>
+      <hr/>
 
-      </div>
+      <Users/>
+    </div>
 
     )
 }
