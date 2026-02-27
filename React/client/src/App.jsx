@@ -16,7 +16,7 @@ import Parent1 from "./State/30-01-2026/State lifiting/Parent1"
 // import A from "./02-02-2026/LocalState/useState/A"
 // import A1 from "./02-02-2026/GlobalState/Context Api/A1"
 // import { store } from "./03-02-2026/GlobalState/Redux/AAA";
-import { Provider } from "react-redux"
+// import { Provider } from "react-redux"
 import A2 from "./03-02-2026/GlobalState/ContextAPI/A2";
 // import { store1 } from "./04-02-2026/Redux/redux";
 import AB from "./04-02-2026/Redux/AB";
@@ -33,7 +33,7 @@ import AB from "./04-02-2026/Redux/AB";
 // import A1 from "./10-02-2026/Context API/A1"
 // import A1 from "./10-02-2026/Context API/A1"
 // import {store} from "./10-02-2026/Redux/Store"
-import Redux from "./10-02-2026/Redux/Aa"
+// import Redux from "./10-02-2026/Redux/Aa"
 // import A from "./11-02-2026/UseReducer/A"
 // import B from "./11-02-2026/UseReducer/B"
 
@@ -101,29 +101,36 @@ import Post from "./24-02-2026/Post";
 import Put from "./24-02-2026/Put"
 import Patch from "./24-02-2026/Patch";
 import API from "./24-02-2026/Api";
-import A from "./25-02-2026/UseEffect/A";
+// import A from "./25-02-2026/UseEffect/A";
 import B from "./25-02-2026/UseEffect/B";
 import C from "./25-02-2026/API Methods/C";
 
-import store from "./26-02-2026/Redux Toolkit/Store";
+// import store from "./26-02-2026/Redux Toolkit/Store";
 import Reducer from "./26-02-2026/Redux Toolkit/Reducer";
 import Users from "./26-02-2026/API Calls/Users";
+
+import A from "./27-02-2026/Context API/A"
+
+import { Provider } from "react-redux";
+import { Store1 } from "./27-02-2026/Redux/Store1";
+import ReduxA from "./27-02-2026/Redux/ReduxA";
+
+
+
 
 
 function App(){
     
     
   return(
-    <div>
-      <Provider store={store}>
-        <Reducer/>
-      </Provider>
-
-      <hr/>
-
-      <Users/>
-    </div>
-
+    <Provider store={Store1}>
+    
+      <div>
+        <A/>
+        <hr/>
+        <ReduxA/>
+      </div>
+      </Provider> 
     )
 }
 export default App;
