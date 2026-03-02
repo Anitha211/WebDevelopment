@@ -63,7 +63,7 @@ import A1 from "./17-02-2026/CustomHooks/UseFetch/A1"
 // import A from "./18-02-2026/React.Memo&useMemo/A";
 // import B from "./18-02-2026/React.Memo&useMemo/B"
 // import C from "./18-02-2026/React.Memo&useMemo/C"
-import Parent from "./18-02-2026/UsecallBack/Parent";
+// import Parent from "./18-02-2026/UsecallBack/Parent";
 // import P1 from "./18-02-2026/UsecallBack/Example/P1";
 
 // import Cart from "./18-02-2026/UsecallBack/Example2/Cart"
@@ -107,7 +107,7 @@ import C from "./25-02-2026/API Methods/C";
 
 // import store from "./26-02-2026/Redux Toolkit/Store";
 import Reducer from "./26-02-2026/Redux Toolkit/Reducer";
-import Users from "./26-02-2026/API Calls/Users";
+// import Users from "./26-02-2026/API Calls/Users";
 
 import A from "./27-02-2026/Context API/A"
 
@@ -115,22 +115,21 @@ import { Provider } from "react-redux";
 import { Store1 } from "./27-02-2026/Redux/Store1";
 import ReduxA from "./27-02-2026/Redux/ReduxA";
 
-
+import Parent from "./2026-03-02/Parent";
+import Users from "./2026-03-02/Users";
 
 
 
 function App(){
     
-    
   return(
-    <Provider store={Store1}>
-    
+
       <div>
-        <A/>
+        <Parent/>
         <hr/>
-        <ReduxA/>
+        <Users/>
       </div>
-      </Provider> 
+      
     )
 }
 export default App;
