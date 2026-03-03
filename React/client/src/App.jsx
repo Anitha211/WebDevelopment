@@ -96,20 +96,20 @@ import P1 from "./18-02-2026/UsecallBack/Example/P1";
 // import Cart from "./19-02-2026/usecallBack/card/Cart"
 // import Todo from "./19-02-2026/usecallBack/Todo/Todo";
 // import A from "./23-02-2026/APi/Get&Delete"
-import Get from "./24-02-2026/Get";
+// import Get from "./24-02-2026/Get";
 import Post from "./24-02-2026/Post";
 import Put from "./24-02-2026/Put"
 import Patch from "./24-02-2026/Patch";
 import API from "./24-02-2026/Api";
 // import A from "./25-02-2026/UseEffect/A";
-import B from "./25-02-2026/UseEffect/B";
-import C from "./25-02-2026/API Methods/C";
+// import B from "./25-02-2026/UseEffect/B";
+// import C from "./25-02-2026/API Methods/C";
 
 // import store from "./26-02-2026/Redux Toolkit/Store";
 import Reducer from "./26-02-2026/Redux Toolkit/Reducer";
 // import Users from "./26-02-2026/API Calls/Users";
 
-import A from "./27-02-2026/Context API/A"
+// import A from "./27-02-2026/Context API/A"
 
 import { Provider } from "react-redux";
 import { Store1 } from "./27-02-2026/Redux/Store1";
@@ -118,16 +118,25 @@ import ReduxA from "./27-02-2026/Redux/ReduxA";
 import Parent from "./2026-03-02/Parent";
 import Users from "./2026-03-02/Users";
 
+import Get from "./2026-03-03/Api/Axios/Axios";
 
+import A from "./2026-03-03/Api/Fetch/A";
+import B from "./2026-03-03/Api/Fetch/B";
+import C from "./2026-03-03/Api/Fetch/C";
+import Fetch from "./2026-03-03/Api/Fetch/Fetch";
 
 function App(){
     
   return(
 
       <div>
-        <Parent/>
+        <Get/>
         <hr/>
-        <Users/>
+        <A/>
+        <B/>
+        <C/>
+        <hr/>
+        <Fetch/>
       </div>
       
     )

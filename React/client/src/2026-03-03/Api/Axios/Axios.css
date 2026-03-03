@@ -1,0 +1,81 @@
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e0e6f0;
+    margin :40px
+} */
+
+.Acontainer{
+    width: 90%;
+    max-width:1100px;
+    margin: 40px auto;
+    text-align: center;
+    /* background-color: #e0e6f0; */
+    
+}
+
+h1{
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form{
+
+    background: rgb(255, 129, 129);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 250px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+button{
+    padding: 7px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.add-btn{
+    background-color: #41d346;
+}
+
+.put-btn{
+    background-color: #45a1ec;
+}
+
+.edit-btn{
+    background-color:orange;
+}
+
+.patch-btn{
+    background-color: #811494;
+}
+
+.delete-btn{
+    background-color: #e2281a;
+}
+
+button:hover{
+    background-color: cornsilk;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.Card{
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid rgb(160, 125, 125);
+    background-color: white;
+}
+
