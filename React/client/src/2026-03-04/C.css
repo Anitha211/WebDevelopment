@@ -1,0 +1,44 @@
+
+/* C */
+.active{
+    background-color: blue;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+/* B */
+.error{
+
+    color:red;
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+
+.success{
+    color: green;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* AA */
+
+ul{
+    display:flex;
+    gap: 20px;
+    background-color: blue;
+    padding: 15px;
+    color: white;
+}
+
+/* D */
+
+.light{
+    background-color:white;
+    
+}
+
+.dark{
+    background-color: black;
+   
+}

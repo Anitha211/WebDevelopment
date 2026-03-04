@@ -3,7 +3,7 @@ import React, { Suspense} from "react";
 // import B from "./Components/B";
 // import C from "./Components/C";
 // import A from "./Parent to child/A";
-import AA from "./Child to Child/AA";
+// import AA from "./Child to Child/AA";
 import Child from "./State/Parent to child/Child";
 // import Parent1 from "./State/Child to Parent/Parent1";
 // import Parent from "./State/Child to child/Parent";
@@ -120,23 +120,34 @@ import Users from "./2026-03-02/Users";
 
 import Get from "./2026-03-03/Api/Axios/Axios";
 
-import A from "./2026-03-03/Api/Fetch/A";
-import B from "./2026-03-03/Api/Fetch/B";
-import C from "./2026-03-03/Api/Fetch/C";
+// import A from "./2026-03-03/Api/Fetch/A";
+// import B from "./2026-03-03/Api/Fetch/B";
+// import C from "./2026-03-03/Api/Fetch/C";
 import Fetch from "./2026-03-03/Api/Fetch/Fetch";
+
+import A from "./2026-03-04/A";
+import B from "./2026-03-04/B"
+import C from "./2026-03-04/C"
+import Theme from "./2026-03-04/Theme";
+import Api from "./2026-03-04/Api";
+
 
 function App(){
     
   return(
 
       <div>
-        <Get/>
-        <hr/>
-        <A/>
+        
         <B/>
+        <hr/>
         <C/>
         <hr/>
-        <Fetch/>
+        <A/>
+        <hr/>
+        <Theme/>
+        <hr/>
+        <Api/>
+        
       </div>
       
     )
