@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+        .a {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .b {
+            padding: 20px;
+            width: 200px;
+            border-radius: 10px;
+            border: 2px solid blue;
+        }
+
+        button {
+            background: blue;
+            color: white;
+            padding: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: darkblue;
+        }
+
+        /*  */
+        table{
+            width: 80%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th{
+            background-color: antiquewhite;
+        }
+
+        .lunch{
+            background-color: #f3cd5b;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Products Cards</h1>
+
+    <div class="a">
+
+        <div class="b">
+            <h2>Product 1</h2>
+            <p>Price: 500</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="b">
+            <h2>Product 2</h2>
+            <p>Price: 600</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="b">
+            <h2>Product 3</h2>
+            <p>Price: 950</p>
+            <button>Buy Now</button>
+        </div>
+
+    </div>
+
+    <!--  -->
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <div>
+        <h2>Product Details</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Laptop</td>
+                    <td>50000</td>
+                    <td>2</td>
+                </tr>
+
+                <tr>
+                    <td>Mobile</td>
+                    <td>20000</td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>Headphones</td>
+                    <td>1000</td>
+                    <td>5</td>
+                </tr>
+            </tbody>
+
+            <tfood>
+                <tr>
+                    <td colspan="2"><b>Total Amount</b></td>
+                    <td>8</td>
+                </tr>
+            </tfood>
+        </table>
+
+    </div>
+
+    <!--  -->
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <!--  -->
+
+
+    <h2>School Weekly Timetable</h2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Period 1</th>
+                <th>Period 2</th>
+                <th>Period 3</th>
+                <th>Period 4</th>
+                <th>Period 5</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Math</td>
+                <td>Science</td>
+                <td class="lunch" colspan="2">Lunch Break</td>
+                <td>English</td>
+            </tr>
+
+            <tr>
+                <td>Tuesday</td>
+                <td>English</td>
+                <td>Telugu</td>
+                <td class="lunch" colspan="2">Lunch Break</td>
+                <td>Math</td>
+            </tr>
+
+            <tr>
+                <td>Wednesday</td>
+                <td>Science</td>
+                <td>Math</td>
+                <td class="lunch" colspan="2">Lunch Break</td>
+                <td>English</td>
+            </tr>
+
+            <tr>
+                <td>Thurday</td>
+                <td>Math</td>
+                <td>Science</td>
+                <td class="lunch" colspan="2">Lunch Break</td>
+                <td>English</td>
+            </tr>
+
+            <tr>
+                <td>Friday</td>
+                <td>Math</td>
+                <td>Science</td>
+                <td class="lunch" colspan="2">Lunch Break</td>
+                <td>sports</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>

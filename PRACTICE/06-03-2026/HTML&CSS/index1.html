@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML</title>
+
+        <style>
+            body{
+               background: rgb(240, 9, 9);
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               height: 100vh;
+            }
+
+            .container{
+                  background: white;
+                  padding: 25px;
+                  width: 700px;
+                  border-radius: 5px;
+            }
+
+            h1{
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .row{
+                display: flex;
+                gap:20px;
+                margin-bottom: 15px;
+            }
+
+            .col{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+            }
+
+            label{
+                margin-bottom: 5px;
+                font-size: 14px;
+            }
+
+            input, select{
+                padding: 8px;
+                border: 1px solid lightgray;
+                border-radius: 3px;
+            }
+
+            textarea{
+                padding: 8px;
+                border: 1px solid lightgray;
+                height: 80px;
+            }
+
+            .gender{
+                display: flex;
+                gap:15px;
+                margin-top: 5px;
+            }
+
+            .branch{
+                display: flex;
+                gap:15px;
+                margin-top: 5px;
+            }
+
+            button{
+                width: 100%;
+                padding: 12px;
+                background: red;
+                color: white;
+                font-size: 16px;
+                margin-top: 15px;
+            }
+            
+            
+        </style>
+    </head>
+
+    <body>
+
+       <div class="container">
+        <h1>Student Registration Form</h1>
+        <form>
+            <label><b>Student Name</b></label>
+            <input type="text" placeholder="Enter name">
+
+            <div class="row">
+
+                <div class="col">
+                    <label>Mobile No.</label>
+                    <input type="text" placeholder="number">
+                </div>
+
+                <div class="col">
+                    <label>Email Id</label>
+                    <input type="email" placeholder="Entermail">
+                </div>
+            </div>
+           <!--  -->
+            <div class="row">
+                <div class="col">
+                    <label>Father Name</label>
+                    <input type="text" placeholder="name">
+                </div>
+
+                <div class="col">
+                    <label>Mother Name</label>
+                    <input type="text" placeholder="name">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="course">Select Course</label>
+                    <select id="course">
+                        <option>Select...</option>
+                        <option>B.Tech</option>
+                        <option>M.tech</option>
+                        <option>MCA</option>
+                        <option>MBA</option>
+                    </select>
+                </div>
+
+                <div class="col">
+                    <label>Date Of Birth - <input type="date"></label>
+                    <!-- <input type="date"> -->
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                <label>Gender</label>
+                <div class="gender">
+                    <label><input type="radio" name="gender">Male</label>
+                    <label><input type="radio" name="gender">Female</label>
+                </div>
+            </div>
+
+           <div class="col">
+            <label>Student Photo <input type="file"></label>
+            
+           </div>
+
+           </div>
+
+           <label>Select Branch</label>
+
+           <div class="Branch">
+            <label><input type="checkbox">CSE</label>
+            <label><input type="checkbox">IT</label>
+            <label><input type="checkbox">ECE</label>
+            <label><input type="checkbox">Civil</label>
+        </div>
+
+        <label>Address</label>
+        <textarea placeholder="Type here"></textarea>
+        
+
+        <button type="submit">Submit</button>
+            
+
+        </form>
+       </div>
+
+
+
+    </body>
+</html> 
+
