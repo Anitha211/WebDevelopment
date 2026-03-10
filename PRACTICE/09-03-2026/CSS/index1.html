@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS</title>
+        <link rel="stylesheet" href="./index.css">
+
+        <style>
+            .Navbar{
+                display:flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: blue;
+                padding: 10px 20px;
+                color: white
+            }
+
+            .Logo{
+                font-size: 22px;
+                font-weight:bold;
+            }
+
+            .search{
+                width: 300px;
+                padding: 6px;
+                border-radius:4px;
+                border:none;
+            }
+
+            .Menu{
+                display: flex;
+                gap: 20px;
+            }
+
+            .Menu li{
+                cursor: pointer;
+            }
+
+            .icons{
+                display: flex;
+                gap:15px
+            }
+
+            .Menu li:hover{
+                color:rgb(14, 14, 13)
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="price-container">
+            
+            <div class="plan">
+                <h2>Basic</h2>
+                <h3>$10 / month</h3>
+
+                <ul>
+                    <li>1 website</li>
+                    <li>10GB Storage</li>
+                    <li>Email Support</li>
+                </ul>
+
+                <button>Subscribe</button>
+
+            </div>
+
+            <div class="plan">
+                <h2>Standard</h2>
+                <h3>$20 / month</h3>
+
+                <ul>
+                    <li>5 websites</li>
+                    <li>50GB Storage</li>
+                    <li>Priority Support</li>
+                </ul>
+
+                <button>Subscribe</button>
+            </div>
+
+            <div class="plan">
+                <h2>Premium</h2>
+                <h3>$40 / month</h3>
+
+                <ul>
+                    <li>Unlimited Websites</li>
+                    <li>200GB Storage</li>
+                    <li>24/7 Support</li>
+                </ul>
+
+                <button>Subscribe</button>
+
+            </div>
+
+        </div>
+
+<!--         
+        <hr>
+        <br><br>
+
+        <div class="product-card">
+        <img src="Smart Image.avif" alt="product">
+        
+        <h2 >Smart Watch</h2>
+        <h3>&#8377 1999 <span>&#8377 2999</span></h3>
+        <h3>&#9733 &#9733 &#9733 &#9733 &#9734</h3>
+        <p>33% off</p>
+        <p>This smart watch tracks fitness, heart rate and notifications</p>
+        <button>Add to Cart</button>
+    </div> -->
+
+    <!--  -->
+    <br><br><hr><br><br>
+
+
+    <nav class="Navbar">
+        <div class="Logo">ShopEasy</div>
+
+        <input type="text" placeholder="Search products.." class="search">
+
+        <ul class="Menu">
+            <li>Home</li>
+            <li>Products</li>
+            <li>Categories</li>
+        </ul>
+
+        <div class="icons">
+            <span>Cart</span>
+            <span>Login</span>
+        </div>
+        </nav>
+
+        <br><br>
+
+        <div class="card">
+        <img src="Smart Image.avif" alt="product">
+        
+        <h2>Smart Watch</h2>
+        <h3>&#8377 1999</h3>
+        <h3>&#9733 &#9733 &#9733 &#9733 &#9734</h3>
+        <p>33% off</p>
+        <p>This smart watch tracks fitness, heart rate and notifications</p>
+        <button>Add to Cart</button>
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br><br>
+
+   <h2>Student Data Table</h2>
+    <div class="table">
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Class</th>
+                    <th>Marks</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+            <tr>
+                <td>Anitha</td>
+                <td>5th Class</td>
+                <td>87</td>
+            </tr>
+
+            <tr>
+                <td>Vidya</td>
+                <td>5th Class</td>
+                <td>87</td>
+            </tr>
+
+            <tr>
+                <td>Kumudini</td>
+                <td>5th Class</td>
+                <td>87</td>
+            </tr>
+
+            </tbody>
+
+        </table>
+
+        <!--  -->
+
+        
+
+    </div>
+    </body>
+</html>
