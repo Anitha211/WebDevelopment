@@ -206,7 +206,9 @@ let fruit = new Map([
 for(let[key,value] of fruit){
     console.log(key,":",value);
 }
-// 
+
+//
+
 let nums = [10,20,30,44,50,54,60];
 for(let nums of number){
     if (nums % 2 == 0){
@@ -218,7 +220,6 @@ for(let nums of number){
 
 }
 
-
  
         
     
@@ -227,6 +228,7 @@ for(let nums of number){
 
  
  
+
 
 
 
