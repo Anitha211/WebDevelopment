@@ -132,9 +132,6 @@ int.sort(function(a,b){
 console.log(int);
 
 
-
-// join ---> it is used to return an array as a string with specified separator
-
 let fruits = ["apple", "banana", "mango"];
 
 console.log(fruits);
