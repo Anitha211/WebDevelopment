@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1>Document Object Model</h1>
+
+    <h2 id="title">Get Element By id</h2>
+
+    <h2 class="text">Get Element By ClassName</h2>
+
+    <h3>Get Element by tag name</h3>
+
+    <h3 id="heading12">Query Selector</h3>
+
+    <h4>Query Selector All</h4>
+
+    <!--  --><hr>
+
+    <p id="text">Hello World</p>
+    <button onclick="changeText()">Click Here</button>
+
+    <!--  --><hr>
+
+    <p class="item">Item 1</p>
+    <p class="item">Item 2</p>
+    <button onclick="changeColor()">Change Color</button>
+
+    <!--  --><hr>
+
+    <p class="demo"><b>First</b></p>
+    <p class="demo">Second</p>
+    <button onClick="changeFirst()">Change text</button>
+
+    <!--  --><hr>
+
+    <ul id="list">
+        <li>
+           Html
+        </li>
+    </ul>
+    <button onclick="addItem()">Add Item</button>
+
+    <!--  -->
+    <ul id="List">
+        <li id="remove">Remove list</li>
+
+    </ul>
+    <button onclick="removeItem()">Remove</button>
+
+    <!--  --><hr>
+
+    <div id="box"></div>
+    <button onclick="addContent()">ADD</button>
+
+    <!--  --><hr>
+
+    <button id="btn">Click</button>
+
+    <!--  --><hr>
+
+    <button onclick="count()">Click</button>
+    <p id="count">0</p>
+
+    <!--  --><hr>
+    
+    <div id="DIV"></div>
+    <button onclick="addPara()">Add Paragraph</button>
+
+    <!--  --><hr>
+
+    <h1>Event Bubbling</h1>
+    
+    <div id="parent">
+        <button id="child">Click</button>
+    </div>
+
+    <!--  --><hr>
+
+    <div id="grandparent">Grand Parent
+        <div id="Parent">Parent
+            <br>
+            <br>
+            <button id="Child">Click</button>
+        </div>
+    </div>
+
+    <!--  --><hr>
+
+    <ul class="ITEM">
+        <li>Apple</li>
+        <li>Mango</li>
+    </ul>
+
+    <!--  --><hr>
+    <h1>Event Capturing</h1>
+
+    <div id="outer"> outer
+        <div id="inner"> Inner</div>
+    </div>
+
+    <!--  --><hr>
+      <div id="P">
+      <button id="C">Click Me</button>
+   </div>
+
+   <!--  --><hr>
+
+   <div id="card">
+    <button id="BTN">Buy</button>
+   </div>
+
+   <!--  --><hr>
+  <h1>Event Delegation</h1>
+
+   <ul id="l">
+    <li>Books</li>
+    <li>Pens</li>
+    <li>Fruits</li>
+   </ul>
+    
+   <!--  --><hr>
+
+   <ul id="list1"></ul>
+   <button id="add">ADD Item</button>
+
+   <!--  --><hr>
+
+   <div id="container">
+    <button>Save</button>
+    <button>Delete</button>
+    <button>Edit</button>
+   </div>
+
+    <Script src="./Dom.js"></Script>
+
+</body>
+</html>
