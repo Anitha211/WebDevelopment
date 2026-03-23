@@ -7,18 +7,17 @@ import Login from "./ASS/Conditional Rendering";
 import Api from "./React Practice/20-03-2026/API CALLS/Api";
 import Fetch from "./React Practice/20-03-2026/API CALLS/fetch";
 import Get from "./React Practice/20-03-2026/API CALLS/Get";
-
+import A from "./React Practice/23-03-2026/A";
+import Cart from "./React Practice/23-03-2026/cart";
 
 function App(){
     
   return(
 
     <div>
-      <Api/>
-      <hr></hr>
-      <Fetch/>
-      <hr></hr>
-      <Get/>
+      <A/>
+      <Cart/>
+      
     </div>
       
     )
