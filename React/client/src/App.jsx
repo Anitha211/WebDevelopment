@@ -14,25 +14,23 @@ import B from "./React Practice/24-03-2026/useEffect/b.jsx";
 import A1 from "./React Practice/24-03-2026/Context Api/Count/A1.jsx";
 import Api from "./React Practice/24-03-2026/useEffect/Api.jsx";
 import Context from "./React Practice/24-03-2026/Context Api/Cart/Context.jsx";
-
-
+import Reducer from "./React Practice/25-03-2026 - Reduxtoolkit/Reducer.jsx";
+import store from "./React Practice/25-03-2026 - Reduxtoolkit/Store.jsx";
+import { Provider } from "react-redux";
 
 function App(){
     
   return(
+  
+  <div style={{textAlign:"center"}}>
+    <h1><u>Redux Toolkit</u></h1>
+    <Provider store = {store}>
 
-    <div>
-      <h1><u>use Effect</u></h1>
-      {/* <A/> */}
-      <B/>
-      <Api/>
-      <br></br>
-      <hr></hr>
-      <h1><u>Context API</u></h1>
-      <A1/>
-      <hr></hr>
-      <Context/>
-    </div>
+        <Reducer/>
+        
+    </Provider>
+      
+  </div>
       
     )
 }
