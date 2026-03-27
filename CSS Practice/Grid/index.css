@@ -1,0 +1,43 @@
+#b{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px;
+    }
+
+    .header{
+        background-color: rgb(228, 224, 33);
+        padding: 2px;
+        margin: 5px;
+        grid-column: 1/4;
+        border: 2px solid rgb(255, 253, 253);
+        text-align: center;
+        
+    }
+
+    .bar{
+        background-color: rgb(219, 97, 138);
+        padding: 2px;
+        margin: 5px;
+        grid-column: 1/2;
+        border: 2px solid rgb(255, 255, 255);
+        text-align: center;
+        
+    }
+       
+    .nav{
+        background-color: rgb(139, 206, 107);
+        padding: 2px;
+        margin: 5px;
+        
+        border: 2px solid rgb(250, 248, 248);
+        grid-column: 2/4;
+    }
+
+    .footer{
+
+        background-color: rgb(110, 51, 51);
+        padding: 2px;
+        margin: 5px;
+        grid-column: 1/4;
+        border: 2px solid rgb(255, 255, 255);
+        grid-column: 1/4;
+    }
