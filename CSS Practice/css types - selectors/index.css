@@ -1,0 +1,55 @@
+/* Tag Selector */
+h4{
+    color:blueviolet;
+}
+/* Class selector */
+.box{
+    background-color: yellow;
+}
+
+/* Id Selector */
+
+#header{
+     background-color: black;
+     color: white;
+}
+
+/* Group Selector */
+
+h5,h6{
+    color:rgb(130, 172, 62);
+}
+
+/* univarsal Selector */
+
+*{
+    background-color: aqua;
+}
+
+/* Attribute Selector[] */
+
+input[type="text"]{
+    border: 2px solid brown;
+}
+
+input[type="password"]{
+    background-color: rgb(225, 200, 248);
+    color: white;
+}
+
+/* Pseudo Selector */
+
+p::first-line{
+    color:blue;
+}
+
+p::first-letter{
+    color: orangered;
+}
+
+/* Child Selector */
+
+div > p {
+    color: green;
+}
+

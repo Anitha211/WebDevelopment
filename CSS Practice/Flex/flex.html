@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+</head>
+<style>
+    *{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 40px;
+    border: 15px solid wheat;
+    background-color: rgb(137, 250, 250);
+    width:990px
+}
+
+.header{
+    background-color: rgb(28, 240, 169);
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.main{
+    display: flex;
+    gap:20px;
+    flex: 1;
+}
+
+.aside{
+    background-color:greenyellow ;
+    display:flex ;
+    justify-content:center ;
+    align-items: center;
+    padding: 40px;
+    width: 400px;
+    font-size: 25px;
+}
+
+.article{
+    background-color:rgb(252, 88, 28) ;
+    padding:20px ;
+    display:flex ;
+    flex-direction:column ;
+    justify-content: space-between;
+    text-align: center;
+    width: 900px;
+    height: 300px;
+    font-size: 25px;
+}
+
+.boxa{
+    display: flex;
+    gap: 10px;
+    justify-content:space-between;
+}
+
+.box{
+    background-color: orange;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer{
+    background-color: rgb(28, 240, 169);
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+
+        <div class="main">
+            <div class="aside">Aside</div>
+
+            <div class="article">
+                <div>Article</div>
+                <div class="boxa">
+                    <div class="box">Box1</div>
+                    <div class="box">Box2</div>
+                    <div class="box">Box3</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">Footer</div>
+    </div>
+
+</body>
+</html>

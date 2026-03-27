@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector example</title>
+    
+    <style>
+        /* Universal (*) */
+        *{
+            box-sizing: border-box;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        /* Tag */
+
+        body{
+            background: #f5cbcb;
+        }
+
+        /* Id */
+
+        #container{
+            width: 300px;
+            margin: 50px auto;
+        }
+
+        /* class */
+
+        .card{
+            background: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        /* Descendant */
+
+        .card h2{
+            color: #161515
+        }
+
+        /* child */
+
+        .card > p{
+             color:gray;
+             margin: 10px;
+        }
+
+        /* Attribute */
+
+        input[type="text"] {
+            width: 100%;
+            padding: 5px;
+            margin: 10px 0;
+            border: 1px solid #6d6b6b;
+            border-radius: 3px;
+        }
+
+        /* group */
+
+        h2,p{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* btn style */
+
+        .btn{
+            background: blue;
+            color:white;
+            padding: 8px;
+            margin: 10px 0;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+
+        /* pseudo */
+
+        .btn:hover{
+            background-color: darkblue;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div class="card">
+            <h2>Anitha Atmakuru</h2>
+            <p>Web Developer</p>
+            <input type="text" placeholder="Enter message">
+            <button class="btn">Follow</button>
+        </div>
+    </div>
+    
+</body>
+</html>
