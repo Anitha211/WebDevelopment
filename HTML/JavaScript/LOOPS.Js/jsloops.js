@@ -220,16 +220,5 @@ for(let nums of number){
 
 }
 
- 
-        
-    
-    
-
-
- 
- 
-
-
-
 
 
