@@ -212,7 +212,7 @@ let obj11 = {a:1, b:2, c:3};
 
 let obj2 = obj11
 
-console.log(obj2);
+console.log(obj11);
 
 console.log(obj11);
 
@@ -445,7 +445,6 @@ let num = Math.floor(Math.random() * 10);
 
 console.log("random number between 1 to 10:",num);
 
-// 
 
 let otp = Math.floor(100000 + Math.random() * 900000);
 
