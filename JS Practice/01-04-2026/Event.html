@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+</head>
+
+<body>
+    <h1>Event Capturing</h1>
+
+    <div id="parent">
+        <button id="child">
+            Click Here
+        </button>
+    </div>
+
+    <br>
+    <!--  -->
+    <br>
+    
+    <div id="Grandparent">
+        <div id="Parent">
+            <button id="Child">Click</button>
+        </div>
+    </div>
+        <h3>Output:</h3>
+        <p id="output"></p>
+
+    <!--  -->
+        <br>
+        <br>
+
+        <div id="outer">
+            <div id="inner">
+                <button id="button">Capturing</button>
+            </div>
+        </div>
+
+    <!-- event bubbling -->
+
+     <h1>Event Bubbling</h1>
+
+     <div id="GRANDPARENT">
+        <div id="PARENT">
+            <button id="CHILD">Event Bubblling</button>
+        </div>
+    </div>
+
+    <h3>Output:</h3>
+    <p id="result"></p>
+    
+    <!--  -->
+
+    <div id="card">
+        <button id="btn">Buy Now</button>
+    </div>
+    <br>
+    <br>
+
+    <!-- bubbling Vs capturing -->
+
+    <div id="P">
+        <button id="C">CLICK HERE</button>
+    </div>
+    <h3>Output : </h3>
+    <p id="Result"></p> 
+
+    <br>
+   
+
+    <div id="productlist">
+        <h3>Products:-</h3>
+        <P class="product">Mobile</P>
+        <P class="product" >Laptop</P>
+        <p class="product" >Headphones</p>
+    </div>
+
+    <br>
+
+    <!-- Event Delegation -->
+
+    <h1>Event Deligation</h1>
+
+    <ul id="list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <br>
+
+    <h2>TODO LIST</h2>
+
+
+    <ul id="todo">
+        <li>Buy groceries<button>Delete</button></li>
+        <li>Py bill <button>Delete</button></li>
+    </ul>
+
+
+
+    <br>
+
+    <form id="signup">
+        <h2>Sign Up</h2>
+        <label>UserName: </label>
+        <input type="text" name="username" placeholder="Username">
+        <br>
+        <br>
+         <label>Password: </label>
+        <input type="email" name="email" placeholder="Password">
+    </form>
+
+    <br>
+    <h1>Todo</h1>
+    <input type="text" id="Input">
+    <button id="Add">ADD</button>
+    <ul id="Todo"></ul>
+
+   
+    
+    <script src="./Event.js"></script>
+</body>
+
+</html>
