@@ -40,7 +40,7 @@ fetch("https://jsonplaceholder.typicode.com/users")
     users.forEach(user => {
         if(user.address.city == "South Christy"){
             console.log(user.name,user.email);
-            // console.log(user.email);
+            // console.log(user.email);   
         }
     });
 });
