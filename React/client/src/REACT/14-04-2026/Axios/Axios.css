@@ -1,0 +1,96 @@
+.container{
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 15px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    align-content: center;
+
+}
+
+.title{
+    margin-bottom: 20px;
+    color: #3f3e3e;
+}
+
+.tob-buttons{
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 8px 14px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.getbtn{
+    background-color: blue;
+    color: white;
+}
+.getbtn:hover{
+    background-color: rgb(103, 103, 245);
+}
+
+.postbtn{
+    background-color: green;
+    color: white;
+}
+.postbtn:hover{
+    background-color:rgb(124, 230, 124);
+}
+
+.putbtn{
+    background-color: blueviolet;
+    color: white;
+}
+.putbtn:hover{
+    background-color:rgb(173, 103, 238);
+}
+
+.patchbtn{
+    background-color: orange;
+    color: white;
+}
+.patchbtn:hover{
+    background-color: rgb(226, 170, 67);
+}
+
+.deletebtn{
+    background-color: red;
+    color: white;
+}
+.deletebtn:hover{
+    background-color: rgb(224, 82, 82);
+}
+
+
+.msg{
+    margin: 15px 0;
+    color: #bb289b;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:15px
+}
+
+.card{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px solid cornflowerblue;
+
+}
+
+.card h3{
+    margin-bottom:5px;
+    color: #080808;
+}
+
+.card p {
+    font-size: 14px;
+    color:brown
+}

@@ -9,25 +9,21 @@ import Switch from "./REACT/13-04-2026/Conditional Rendering/Switch.jsx";
 
 import Roles from "./REACT/13-04-2026/Roles Based System/Roles.jsx";
 import Theme from "./REACT/13-04-2026/Conditional Rendering/Theme.jsx";
-
-
-
+import Fetch from "./REACT/14-04-2026/Fetch/Fetch.jsx";
+import Api from "./REACT/14-04-2026/Axios/Api.jsx";
+import Axios from "./REACT/14-04-2026/Axios/Axios.jsx"
 
 function App(){
     
   return(
     
     <div style={{textAlign: "center", marginTop:"50px"}}>
-      <Profile/>
+
+      <Fetch/>
       <hr></hr>
-      <Age/>
+      <Api/>
       <hr></hr>
-      <Switch/>
-      <hr></hr>
-      <Theme/>
-      <hr></hr>
-      <Roles/>
-    
+      <Axios/>
 
     </div>
     )
