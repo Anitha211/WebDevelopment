@@ -15,21 +15,34 @@ import Axios from "./REACT/14-04-2026/Axios/Axios.jsx";
 
 // import A from "./REACT/15-04-2026/ReactMemo,usememo,usecallback/A.jsx";
 import Cart from "./REACT/15-04-2026/ReactMemo,usememo,usecallback/Cart/Cart.jsx";
-import A from "./REACT/16-04-2026/UseEffect/useEffect.jsx";
+// import A from "./REACT/16-04-2026/UseEffect/useEffect.jsx";
 import Api from "./REACT/16-04-2026/UseEffect/Api.jsx";
 import Timer from "./REACT/16-04-2026/UseEffect/Timer.jsx";
 import Custom from "./REACT/16-04-2026/Custom Hook/Custom.jsx";
+// 
+import A from "./REACT/17-04-2026/UseReducer & Event Handling/A.jsx";
+import Form from "./REACT/17-04-2026/UseReducer & Event Handling/Form.jsx";
+import Todo from "./REACT/17-04-2026/UseReducer & Event Handling/Todo.jsx";
+import FeedbackForm from "./REACT/17-04-2026/UseReducer & Event Handling/FeedbackForm.jsx";
+
+// 
+
 
 function App(){
 
   return(
     
-    <div>
+    <div style={{textAlign:"center"}}>
+
       <A/>
-      <Api/>
-      <Timer/>
-      <hr></hr>
-      <Custom/>
+      <br/><hr/><br/>
+      <Form/>
+      <br/><hr/><br/>
+      <Todo/>
+      <br/><hr/><br/>
+      <FeedbackForm/>
+
+      
     </div>
 
 
