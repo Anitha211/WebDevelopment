@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Feature Cards Section</title>
+</head>
+
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+    }
+
+    .section{
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .section h2{
+        margin-bottom: 30px;
+    }
+
+    /* grid */
+
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+    .card{
+        background-color: #f4f4f4;
+        padding: 20px;
+        border-radius: 10px;
+        border: 2px solid blue;
+    }
+
+    .card:hover{
+        background-color: cornsilk;
+    }
+
+    .icon{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .card h3{
+        margin: 10px 0;
+    }
+
+    .card p {
+        font-size: 14px;
+        color: #555;
+    }
+
+    @media (max-width: 992px) {
+        .cards{
+            grid-template-columns: 1fr 1fr
+        }
+    }
+
+
+    @media (max-width: 600px) {
+        .cards{
+            grid-template-columns: 1fr;
+        }
+    }
+
+</style>
+<body>
+    <section class="section">
+        <h2>Our Features</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon">&#128640</div>
+                <h3>Fast Performances</h3>
+                <p>Fast speed and smooth performance.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">&#128274</div>
+                <h3>Secure</h3>
+                <p>Your data is safe with top-level security measures</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">&#128241</div>
+                <h3>Responsive</h3>
+                <p>Works perfectly on mobile, tablent and desktop</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">&#128241</div>
+                <h3>Responsive</h3>
+                <p>Works perfectly on mobile, tablent and desktop</p>
+            </div>
+
+
+        </div>
+    </section>
+
+</body>
+</html>

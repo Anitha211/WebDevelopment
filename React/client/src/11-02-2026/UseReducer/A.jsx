@@ -27,7 +27,7 @@ function A(){
     let [a,dispatch]= useReducer(countReducer,initialState);
     console.log(a);
     
-    
+
     
     return(
         

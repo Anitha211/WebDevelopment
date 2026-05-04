@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoM</title>
+</head>
+
+<body>
+
+    <h1 id="title">Dom - Document Object Model</h1>
+    <!--  -->
+    <button onclick="changeText()">ChangeText</button>
+    <p id="msg">Old Text</p>
+    <!--  -->
+    <p class="text">One</p>
+    <p class="text">Two</p>
+
+    <!--  -->
+    <input type="text" id="name">
+    <button onClick="showName()">Show</button>
+    <p id="result"></p>
+
+    <!--  -->
+    <p id="status">OFF</p>
+    <button onClick="toggle()">Toggle</button>
+
+    <!--  -->
+
+    <ul id="list"></ul>
+    <button onclick="addItem()">Add Item</button>
+    <!--  -->
+
+    <p id="para">Deleting the content by using remove() in dom</p>
+    <button onClick="removePara()">Delete</button>
+
+    <!--  -->
+
+    <p id="count">0</p>
+    <button onclick="increaseCount()">increase Count</button>
+
+    <br>
+    <!--  -->
+
+    <br>
+    <table border="1" id="table"></table>
+
+    <!--  -->
+    <br>
+    <button id="btn">Click</button>
+
+    <!--  -->
+    <br>
+    <div id="Box">Hover</div>
+    <p id="output"></p>
+
+    <!-- event delegation -->
+
+    <ul id="list1">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Orange</li>
+    </ul>
+
+    <!--  -->
+    <p>Double to remove list items -- </p>
+    <ul id="items">
+        <li>Javascript</li>
+        <li>DOM</li>
+        <li>Event Handlings</li>
+        <li>Objects</li>
+    </ul>
+
+    <!--  -->
+
+    <input id="input" placeholder="Enter item">
+    <button onclick="addItems()">ADD</button>
+    <ol id="LIST"></ol>
+    <!--  -->
+
+    <h1>Event Capturing</h1>
+
+    <div id="parent">
+        <button id="child">
+            Click Here
+        </button>
+    </div>
+    <!--  -->
+
+    <h1>Event Bubbling</h1>
+
+    <div id="GRANDPARENT">
+        <div id="PARENT">
+            <button id="CHILD">Event Bubblling</button>
+        </div>
+    </div>
+
+    <h3>Output:</h3>
+    <p id="result"></p>
+<hr>
+    <!-- Normal event -->
+    
+    <h3><u>Normal event</u></h3>
+    <button id="button">Click Me</button>
+
+    <br>
+    <br>
+    <!--  -->
+
+    <button id="Btn">Click</button>
+    <p id="Output">Value Of a1 : 0</p>
+    
+    <!--  -->
+
+    <select id="course">
+        <option>JavaScript</option>
+        <option>HTML</option>
+        <option>CSS</option>
+    </select> 
+
+    <hr>
+
+
+    <h2>Throttling event</h2>
+
+    <button id="BTN">Click Fast</button>
+
+    <br>
+    <br>
+
+    <div id="mouse">
+        <button>Move the mouse inside this box</button>
+    </div>
+
+    <br>
+    <br>
+    <hr>
+
+    <!-- Debouncing -->
+
+    <h2>Debouncing Event</h2>
+
+    <input id="input1" type="text" placeholder="Type here....">
+    <p id="out"></p>
+
+    <script src="./Dom.js"></script>
+
+
+</body>
+
+</html>

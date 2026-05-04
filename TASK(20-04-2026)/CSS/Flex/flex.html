@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" href="./flex.css">
+</head>
+<style>
+    .container{
+        display: flex;
+        justify-content: space-between;
+        gap:20px;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .box{
+        flex:1;
+        
+        width: 100px; 
+        height: 100px;
+        background-color:teal;
+        margin: 10px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+    /*  */
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgb(218, 158, 158);
+        color: white;
+        padding: 40px;
+        margin: 40px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .logo{
+        color:black;
+        font-size: 25px;
+    }
+
+    .menu{
+        display: flex;
+        gap: 20px;
+        font-size: 25px;
+    }
+
+    .menu a{
+        color: blue;
+    }
+
+
+</style>
+<body>
+
+    <h1 style="text-align: center;">Flex</h1>
+
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+<!--  -->
+
+    <div class="navbar">
+        <div class="logo">MyLogo</div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+
+        </div>
+    </div>
+
+
+    <!--  -->
+
+    <div class="dashboard">
+
+        <div class="header">Header</div>
+
+        <div class="main">
+            <div class="sidebar">Sidebar</div>
+            <div class="content">Main Content Area</div>
+        </div>
+
+        <div class="footer">Footer</div>
+
+    </div>
+
+    <!-- Youtube like header -->
+
+    <div class="head">
+        <div class="Logo">YouTube</div>
+
+        <input type="text" placeholder="Search">
+
+        <div class="icons">
+            <span>&#128276</span>
+            <span>&#128100</span>
+        </div>
+
+    </div>
+
+    <!-- card component style -->
+
+    <div class="CONTAINER">
+
+        <div class="CARD">
+            <img src="./Headphones.jpg" alt="product">
+            <h3>Headphones</h3>
+            <p style="font-size: 14px; color:#df7171">High quality sound with noise cancellation and long lasting battery</p>
+            <p>&#8377 999</p>
+            <button class="btn">Add to Card</button>
+        </div>
+    </div>
+
+    
+</body>
+</html>
