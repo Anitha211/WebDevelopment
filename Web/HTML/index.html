@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<style>
+
+    .container{
+        font-family: Arial, Helvetica, sans-serif;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:10px
+    }
+
+    .basic{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        border: 2px solid blue;
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .basic:hover{
+        background-color: antiquewhite;
+    }
+
+    .standard{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        border: 2px solid blue;
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .standard:hover{
+        background-color: antiquewhite;
+    }
+
+    .premium{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        border: 2px solid blue;
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .premium:hover{
+        background-color: antiquewhite;
+    }
+    
+    button{
+        color: rgb(66, 141, 76);
+        padding: 20px;
+        align-items: center;
+    }
+
+    button:hover{
+        background-color: rgb(53, 95, 58);
+    }
+</style>
+<body>
+
+   
+<h1>Pricing Section</h1>
+    <div class="container">
+         
+
+        <div class="basic">
+            <h1>Basic</h1>
+            <h3>1gb Data Plan</h3>
+            <h4>Price: 299</h4>
+            <p>Feature list: per 1Month</p>
+            <button type="submit">Subscribe</button>
+        </div>
+
+
+        <div class="standard">
+            <h1>Standard</h1>
+            <h3>2gb Data Plan</h3>
+            <h4>Price: 459</h4>
+            <p>Feature list: per 62days</p>
+            <button type="submit">Subscribe</button>
+        </div>
+
+        <div class="premium">
+            <h1>Premium </h1>
+            <h3>5gb Data Plan</h3>
+            <h4>Price: 999</h4>
+            <p>Feature list: Unlimited</p>
+            <button type="submit">Subscribe</button>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .section{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+    }
+
+    .card{
+        border: 1px solid black;
+        border-radius: 5px;
+        color: brown;
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .card button{
+        color: rgb(66, 141, 76);
+        padding: 20px;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .card button:hover{
+        background-color: rgb(53, 95, 58);
+    }
+
+    @media(max-width: 670px){
+        .section{
+            background-color: aquamarine;
+        }
+    }
+
+
+</style>
+<body>
+    <section class="section">
+        <div class="card">
+            <h1 class="header">HTML</h1>
+            <h3>Hyper text markup language</h3>
+            <button>Click</button>
+            
+        </div>
+    </section>
+</body>
+</html>

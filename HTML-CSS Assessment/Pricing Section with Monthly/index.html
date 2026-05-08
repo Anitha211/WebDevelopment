@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .pricing {
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background-color: white;
+        padding: 25px;
+        width: 250px;
+        border-radius: 10px;
+    }
+
+    .card h3 {
+        margin-bottom: 10px;
+    }
+
+    .card .price {
+        font-size: 32px;
+        margin: 15px 0;
+    }
+
+    .card ul li {
+        margin: 8px 0;
+    }
+
+    .card button {
+        padding: 10px 20px;
+        border: none;
+        background-color: orange;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .card button:hover {
+        background-color: orangered;
+    }
+
+    .card:hover {
+        background-color: antiquewhite;
+    }
+
+    @media (max-width) {
+        .cards {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+</style>
+
+<body>
+    <section class="pricing">
+        <h2>Our Plans</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Basic</h3>
+                <h2 class="price">Price:10rs</h2>
+                <ul>
+                    <li>1user</li>
+                    <li>1oGB Storage</li>
+                </ul>
+                <button>Subscribe</button>
+            </div>
+
+            <div class="card">
+                <h3>Standard</h3>
+                <h2 class="price">Price:10rs</h2>
+                <ul>
+                    <li>5users</li>
+                    <li>100GB Storage</li>
+                </ul>
+                <button>Subscribe</button>
+            </div>
+
+            <div class="card">
+                <h3>Premium</h3>
+                <h2 class="price">Price:20rs</h2>
+                <ul>
+                    <li>Unlimited</li>
+                    <li>500GB Storage</li>
+                </ul>
+                <button>Subscribe</button>
+            </div>
+
+        </div>
+
+        <div id="toggle">
+            <snap>Monthly</snap>
+            <input type="checkbox" id="switch">
+            <span>Yearly</span>
+        </div>
+
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

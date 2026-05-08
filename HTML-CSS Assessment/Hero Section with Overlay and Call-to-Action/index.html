@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .hero {
+        position: relative;
+        height: 100vh;
+        background: url("./Background.jpg") no-repeat center/cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero::before {
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .content {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        color: #fff;
+        padding: 20px;
+    }
+
+    .content h2 {
+        font-size: 46px;
+        margin-bottom: 15px;
+    }
+
+    .content p {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .content button {
+        padding: 12px 30px;
+        border: none;
+        background-color: #ff7a00;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .content button:hover {
+        background-color: #ca8b4f;
+    }
+
+    @media (max-width: 600px) {
+        .content h1 {
+            font-size: 30px;
+        }
+
+        .content p {
+            font-size: 16px;
+        }
+
+        .content button {
+            padding: 10px 20px;
+            font-size: 14px;
+        }
+    }
+</style>
+
+<body>
+    <section class="hero">
+        <div class="content">
+            <h1>Welcome to my Website</h1>
+            <p>This is a simple hero section</p>
+            <button>GET STARTED</button>
+        </div>
+    </section>
+</body>
+
+</html>
+

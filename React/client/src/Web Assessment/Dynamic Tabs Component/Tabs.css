@@ -1,0 +1,33 @@
+.tabs-container{
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: Arial;
+}
+
+.tabs{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tab{
+    padding: 10px 20px;
+    border: none;
+    background-color: lightgray;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.active{
+    background-color: royalblue;
+    color: white;
+}
+
+.tabs-content{
+    border: 1px solid #afaaaa;
+    padding: 20px;
+    border-radius: 5px;
+}
