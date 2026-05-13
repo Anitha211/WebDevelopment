@@ -37,38 +37,36 @@ import React from "react";
 // import Reducer from "./TASK(29-04-2026)-React/Redux Toolkit/Reducer";
 
 
-import A from "./Web Assessment/Reducer/A";
+// import A from "./Web Assessment/Reducer/A";
 import Api from "./Web Assessment/API/Api"
 import Theme from "./Web Assessment/ContextApi/Theme";
 import { Provider } from "react-redux"
 import { ThemeContext } from "./Web Assessment/ContextApi/CreateContext";
 import Tabs from "./Web Assessment/Dynamic Tabs Component/Tabs";
 import Users from "./Web Assessment/API Fetch with Loading and Error Handling/Users";
-// import A from "./Web Assessment/Reactmemo/A"
+
+// 
+
+import A from "./Conditional Rendering(12-05-2026)/Loading";
+import B from "./Conditional Rendering(12-05-2026)/GradeChecker";
+import C from "./Conditional Rendering(12-05-2026)/FoodDelivery";
+import D from "./Conditional Rendering(12-05-2026)/Employee Performance System";
 
 function App() {
 
   return (
 
-    <div>
-      {/* <A/> */}
-      {/* <Api/> */}
+    <div style={{textAlign:"center"}}>
 
-       {/* <Theme/> */}
-       {/* <A/> */}
+      <A />
+      <hr />
+      <B />
+      <hr/>
+      <C/>
+      <hr/>
+      <D/>
 
-       <Tabs/>
-       <hr>
-       </hr>
-<Users/>
-
-      </div>
-
-    
-       
-     
-
-     
+    </div>
   )
 }
 export default App;
