@@ -47,24 +47,31 @@ import Users from "./Web Assessment/API Fetch with Loading and Error Handling/Us
 
 // 
 
-import A from "./Conditional Rendering(12-05-2026)/Loading";
-import B from "./Conditional Rendering(12-05-2026)/GradeChecker";
-import C from "./Conditional Rendering(12-05-2026)/FoodDelivery";
-import D from "./Conditional Rendering(12-05-2026)/Employee Performance System";
+// import A from "./Conditional Rendering(12-05-2026)/Loading";
+// import B from "./Conditional Rendering(12-05-2026)/GradeChecker";
+// import C from "./Conditional Rendering(12-05-2026)/FoodDelivery";
+// import D from "./Conditional Rendering(12-05-2026)/Employee Performance System"
+
+
+// 
+
+import A from "./Optimization Techniques(13-05-2026)/A"
+import Cart from "./Optimization Techniques(13-05-2026)/Cart";
+import Cart1 from "./Optimization Techniques(13-05-2026)/Shopping Cart/Cart1";
+
+
 
 function App() {
 
   return (
 
-    <div style={{textAlign:"center"}}>
+    <div style={{ textAlign: "center" }}>
 
       <A />
       <hr />
-      <B />
-      <hr/>
-      <C/>
-      <hr/>
-      <D/>
+      <Cart />
+      <hr />
+      <Cart1 />
 
     </div>
   )
