@@ -38,12 +38,14 @@ import React from "react";
 
 
 // import A from "./Web Assessment/Reducer/A";
-import Api from "./Web Assessment/API/Api"
-import Theme from "./Web Assessment/ContextApi/Theme";
-import { Provider } from "react-redux"
-import { ThemeContext } from "./Web Assessment/ContextApi/CreateContext";
-import Tabs from "./Web Assessment/Dynamic Tabs Component/Tabs";
-import Users from "./Web Assessment/API Fetch with Loading and Error Handling/Users";
+// import Api from "./Web Assessment/API/Api"
+// import Theme from "./Web Assessment/ContextApi/Theme";
+// import { Provider } from "react-redux"
+// import { ThemeContext } from "./Web Assessment/ContextApi/CreateContext";
+// import Tabs from "./Web Assessment/Dynamic Tabs Component/Tabs";
+// import Users from "./Web Assessment/API Fetch with Loading and Error Handling/Users";
+// import Fetch from "./Api Callls(14-05-2026)/Fetch/Fetch";
+// import A from "./Web Assessment/ContextApi/A";
 
 // 
 
@@ -55,23 +57,28 @@ import Users from "./Web Assessment/API Fetch with Loading and Error Handling/Us
 
 // 
 
-import A from "./Optimization Techniques(13-05-2026)/A"
-import Cart from "./Optimization Techniques(13-05-2026)/Cart";
-import Cart1 from "./Optimization Techniques(13-05-2026)/Shopping Cart/Cart1";
+// import A from "./Optimization Techniques(13-05-2026)/A"
+// import Cart from "./Optimization Techniques(13-05-2026)/Cart";
+// import Cart1 from "./Optimization Techniques(13-05-2026)/Shopping Cart/Cart1";
 
+// 
+
+import Fetch from "./Api Callls(14-05-2026)/Fetch/Fetch";
+import A from "./Api Callls(14-05-2026)/Cart Api/A"
+import Axios from "./Api Callls(14-05-2026)/Axios/Axios";
 
 
 function App() {
 
   return (
 
-    <div style={{ textAlign: "center" }}>
+    <div style={{textAlign:"center"}}>
 
-      <A />
-      <hr />
-      <Cart />
-      <hr />
-      <Cart1 />
+      <Fetch/>
+      <hr/>
+      <A/>
+      <hr/>
+      <Axios/>
 
     </div>
   )
