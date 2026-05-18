@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header,
+nav,
+section,
+article,
+aside,
+footer{
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+nav{
+    background-color: lightgray;
+}
+
+section{
+    background-color: #f2f2f2;
+}
+
+aside{
+    background-color: #ddd;
+}
+
+footer{
+    background: rgb(75, 71, 71);
+    color: white;
+    text-align: center;
+}
+
+header{
+   background: rgb(75, 71, 71);
+   color: white;
+   text-align: center;
+}

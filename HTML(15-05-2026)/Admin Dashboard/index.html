@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+        display: flex;
+        height: 100vh;
+    }
+/* aside - sidebar */
+    aside{
+        width: 220px;
+        background: #222;
+        color: white;
+        padding: 20px;
+    }
+
+    aside h2{
+        margin-bottom: 30px;
+    }
+
+    aside ul{
+        list-style: none;
+    }
+
+    aside li{
+        margin: 20px 0;
+    }
+
+    aside a{
+        color: white;
+        text-decoration: none;
+    }
+
+    /* Main content */
+
+    .main{
+        flex: 1;
+        background: #f2f2f2;
+    }
+
+    /* header */
+
+    header{
+        background: white;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* cards */
+
+    .cards{
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card{
+        flex: 1;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .card h3{
+        margin-bottom: 10px;
+    }
+
+    /* table */
+
+    section{
+        padding: 20px;
+    }
+
+    table{
+        width: 100%;
+        background: white;
+        border-collapse: collapse;
+    }
+
+    th,td{
+        padding: 15px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+
+    th{
+        background: #333;
+        color: white;
+    }
+    
+</style>
+
+<body>
+    <aside>
+        <h2>Admin Panel</h2>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Dashboard</a>
+                </li>
+
+                <li>
+                    <a href="#">Users</a>
+                </li>
+
+                <li>
+                    <a href="#">Products</a>
+                </li>
+
+                <li>
+                    <a href="#">Orders</a>
+                </li>
+
+                <li>
+                    <a href="#">Settings</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- main area -->
+
+    <div class="main">
+        <!-- header -->
+
+        <header>
+            <h1>Dashboard</h1>
+            <p>Welcome Admin</p>
+        </header>
+
+        <!-- cards -->
+
+        <section class="cards">
+            <article class="card">
+                <h3>Total Users</h3>
+                <p>1200</p>
+
+            </article>
+
+            <article class="card">
+                <h3>Total Orders</h3>
+                <p>850</p>
+            </article>
+
+            <article class="card">
+                <h3>Revenue</h3>
+                <p>95,000</p>
+            </article>
+        </section>
+
+        <!-- table -->
+
+        <section>
+            <h2>Recent Orders</h2>
+
+
+            <table>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Customer</th>
+                    <th>Status</th>
+                </tr>
+
+                <tr>
+                    <td>101</td>
+                    <td>Bob</td>
+                    <td>Delivered</td>
+                </tr>
+
+                <tr>
+                    <td>102</td>
+                    <td>John</td>
+                    <td>Pending</td>
+                </tr>
+
+                <tr>
+                    <td>103</td>
+                    <td>Merry</td>
+                    <td>Shipped</td>
+                </tr>
+
+            </table>
+        </section>
+    </div>
+
+</body>
+
+</html>
