@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <!-- Changing Text -->
+
+    <h1 id="title">DOM</h1>
+    <button onclick="changeText()">Change Text</button>
+
+    <!-- show current date & time -->
+
+    <h2 id="time"></h2>
+    <button onclick="showTime()">Show Time</button>
+
+    <!-- Hide text -->
+
+    <p id="para">This is a paragraph</p>
+
+    <button onclick="hidePara()">HIDE</button>
+    <br><br>
+
+    <!-- Input text display -->
+
+    <input type="text" id="name">
+    <button onclick="showName()">Submit</button>
+    <h2 id="result"></h2>
+
+    <!-- count increasre -->
+
+    <h1 id="count"></h1>
+
+    <button onclick="Increase()">Increase</button>
+
+    <!--countIncrease()  -->
+
+    <button onclick="countIncrease()">Click</button>
+
+    <p id="a">Button Clicked</p>
+
+    <!-- list items  -->
+
+    <ul id="list"></ul>
+
+    <button onclick="addItem()">Add Item</button>
+
+    <br><br>
+
+    <!-- Cal -->
+
+    <input type="number" id="num1">
+    <input type="number" id="num2">
+
+    <button onclick="add()">ADD</button>
+
+    <h2 id="res"></h2>
+
+    <!-- Todo app -->
+
+    <input id="task">
+
+    <button onclick="addTask()">ADD TASK</button>
+
+    <ul id="LIST"></ul>
+
+    <!-- character counter -->
+
+    <textarea id="TEXT" onkeyup="countChar()"></textarea>
+
+    <h2 id="COUNT">0 characters</h2>
+
+    <!--Login Form  -->
+
+    <h2>Login Form</h2>
+
+    <label>Username: </label>
+    <input type="text" id="username" placeholder="Username">
+
+    <br> <br>
+
+    <label>Password: </label>
+    <input type="password" id="password" placeholder="Password">
+
+    <br><br>
+
+    <button onclick="login()">Login</button>
+
+    <h2 id="Result"></h2>
+
+    <!-- SignUp Page -->
+
+    <h2>Sign Up</h2>
+
+    <form id="SignUpForm">
+        <label>Username: </label>
+        <input type="text" id="user" placeholder="Username">
+
+        <br><br>
+
+        <label>Email: </label>
+        <input type="email" id="email" placeholder="Email">
+
+        <br><br>
+
+        <label>Password: </label>
+        <input type="password" id="Pass" placeholder="Password">
+
+        <br><br>
+
+        <button type="submit">SignUp</button>
+
+    </form>
+
+    <h2 id="SignUpResult"></h2>
+
+    <!-- Password Strength Checker -->
+
+    <h1>Password Strength Checker</h1>
+
+    <label>Password: </label>
+    <input type="password" 
+    id="p" 
+    placeholder="Enter Password">
+
+    <h2 id="strength"></h2>
+
+    <!-- Registration Form -->
+
+    <h1>Registration Form</h1>
+
+    <form id="registrationForm">
+
+        <label>Name: </label>
+        <input type="text" 
+        placeholder="Enter Your Name" 
+        id="rname">
+
+        <br><br>
+
+        <label>Email: </label>
+        <input type="email" 
+        placeholder="Enter Email" 
+        id="remail">
+
+        <br><br>
+
+        <label>Password: </label>
+        <input type="password" 
+        placeholder="Enter Password" 
+        id="rpassword">
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2 id="message"></h2>
+
+    <!-- ATM -->
+
+    <h1>ATM Machine</h1>
+
+    <h2 id="balance">Balance: 1000</h2>
+
+    <input id="amount" type="number">
+
+    <button id="deposit">Deposit</button>
+
+    <button id="withdraw">Withdraw</button>
+
+    <!-- Timer --> 
+
+     <h1 id="timer">5</h1>
+     <button id="start">Stary Quiz</button>
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
