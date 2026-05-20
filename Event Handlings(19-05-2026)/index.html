@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- event bubbling -->
+
+    <h2>Event Bubbling - events moves from child - parent</h2>
+
+    <div id="Parent">
+
+        <button id="Child">Click Me</button>
+
+    </div>
+
+    <!--  -->
+
+    <br><br>
+
+    <div id="P">
+        <button id="C">
+            Click Me..
+        </button>
+    </div>
+
+    <br><br>
+
+    <div id="card">
+        Product Card
+
+        <button id="deleteBtn">DELETE</button>
+    </div>
+
+    <br><br>
+    <!--  -->
+
+    <div id="grandparent">Grand Parent
+        <div id="PParent">Parent
+            <button id="CChild">
+                Click....
+            </button>
+        </div>
+    </div>
+
+    <br><br>
+    <hr>
+    <!--Event Capturing  -->
+
+    <h1>Event Capturing - here the events moves from parent - child</h1>
+
+    <div id="parent">
+        <button id="child">
+            Click Here
+        </button>
+    </div>
+
+    <br><br>
+
+    <div id="a1">
+        <div id="a2">
+            <button id="a3">
+                Event Capturing
+            </button>
+        </div>
+    </div>
+
+    <br>
+    <hr><br>
+    <!--Example Shopping Cart  -->
+
+    <h2>Shopping Cart Example</h2>
+
+    <div id="Card" 
+    style="width: 320px; 
+    background-color: white;
+          border-radius: 15px; 
+          border: 1px solid yellow;
+          cursor: pointer; 
+          text-align: center;
+           padding: 20px;">
+
+        <img src="./Headphones.jpg" alt="Wireless Headphones" width="300" height="200">
+
+        <h2>Wireless Headphones</h2>
+        <p>Noise Cancelling Bluetooth Headphones</p>
+        <h3>2,999</h3>
+
+        <div style="display: flex; gap: 10px;">
+
+            <button id="CartBtn" style="flex : 1; padding: 10px;
+                background-color: orange; border: none;
+                color: white; font-size: 16px; 
+                border-radius: 8px; cursor: pointer;">Add to Cart</button>
+
+            <button id="buyBtn" style="flex : 1; padding: 10px;
+                background-color: green; border: none;
+                color: white; font-size: 16px; 
+                border-radius: 8px; cursor: pointer;">Buy Now</button>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <!-- EVENT DELEGATION -->
+
+    <h2>Fuits List</h2>
+    <ul id="fruits">
+        <li id="apple">Apple</li>
+        <li id="mango">Mango</li>
+        <li id="orange">Orange</li>
+    </ul>
+
+
+    <br>
+
+    <h2>Todo List</h2>
+
+    <ul id="todoList">
+        <li>Learn HTML</li>
+        <li>Learn CSS</li>
+        <li>Learn Java Script</li>
+    </ul>
+
+    <br><br>
+
+    <!--  -->
+
+    <h2>Products</h2>
+
+    <button id="addBtn">Add Product</button>
+
+    <ul id="products">
+        <li>Phone</li>
+    </ul> 
+
+    <br>
+    <!--  -->
+
+    <div>
+    <ul id="list1">
+
+    </ul>
+    <button id="add">ADD Item</button>
+    </div>
+
+    <br>
+
+    <div id="container">
+    <button>Save</button>
+    <button>Delete</button>
+    <button>Edit</button>
+   </div>
+
+   <!--  -->
+
+   <br><hr>
+
+   <h2>Form Validation</h2>
+
+    <form id="myform">
+
+         <input id="name" type="text" placeholder="Enter Name">
+        <p id="nameError"></p>
+
+        <input id="email" type="email" placeholder="Enter Email">
+        <p id="emailError"></p>
+
+         <input id="password" type="password" placeholder="Enter password">
+        <p id="passwordError"></p>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <br><hr><br>
+
+    <h2>Event Throttling</h2>
+
+    <button id="btn">Click Fast</button>
+
+    <br>
+    <br>
+    <!--  -->
+
+    <h2>Scroll Throttling</h2>
+
+    <p>Scroll the page slowly or faast and check console</p>
+
+    <!--  -->
+
+    <h2>Button Click Throttling</h2>
+
+    <button id="btnn">Submit</button>
+
+    <!--  -->
+
+    <h2>Mouse Moving Throttling</h2>
+
+    <div id="box">
+
+    </div>
+
+    <hr><br>
+
+    <h1>Debouncing Event</h1>
+
+    <input id="input" type="text" placeholder="Type here....">
+    <p id="out"></p>
+
+    <br>
+
+    <button id="btn2">Click Fast</button>
+    <p id="result">Clicked : 0</p>
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
