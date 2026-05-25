@@ -63,24 +63,45 @@ import React from "react";
 
 // 
 
-import Fetch from "./Api Callls(14-05-2026)/Fetch/Fetch";
-import A from "./Api Callls(14-05-2026)/Cart Api/A"
-import Axios from "./Api Callls(14-05-2026)/Axios/Axios";
+// import Fetch from "./Api Callls(14-05-2026)/Fetch/Fetch";
+// import A from "./Api Callls(14-05-2026)/Cart Api/A"
+// import Axios from "./Api Callls(14-05-2026)/Axios/Axios";
+
+// 
+import ThemeContext from "./Context Api - Redux(22-05-2026)/Context API/ThemeContext";
+import AuthContext from "./Context Api - Redux(22-05-2026)/Context API/AuthContext";
+// import store from "./Context Api - Redux(22-05-2026)/Redux/Store";
+import A from "./Context Api - Redux(22-05-2026)/Redux/A";
+import { Provider } from "react-redux";
+import store1 from "./Context Api - Redux(22-05-2026)/Redux/Store1";
+import A1 from "./Context Api - Redux(22-05-2026)/Redux/A1";
+import TimerContext from "./Context Api - Redux(22-05-2026)/Context API/TimerContext";
+// import store1 from "./Context Api - Redux(22-05-2026)/Redux/Store1";
 
 
 function App() {
 
   return (
 
-    <div style={{textAlign:"center"}}>
+    <div>
 
-      <Fetch/>
+      <h2>Context Api - </h2>
+      <ThemeContext />
+      <br/>
       <hr/>
-      <A/>
+      <AuthContext/>
       <hr/>
-      <Axios/>
+      <TimerContext/>
+      <hr/>
+      <h2>REDUX - </h2>
+      <Provider store = {store1}>
+        {/* <A/> */}
+        <A1/>
+      </Provider>
 
+      
     </div>
+
   )
 }
 export default App;
