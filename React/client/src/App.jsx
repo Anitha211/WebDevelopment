@@ -1,4 +1,5 @@
 import React from "react";
+
 // // import A from "./TASK(24-04-2026)-React/Components/Functional Component/A";
 // // import A1 from "./TASK(24-04-2026)-React/Components/Class Component/A1";
 // import Parent from "./TASK(24-04-2026)-React/State Communication/Parent";
@@ -68,38 +69,49 @@ import React from "react";
 // import Axios from "./Api Callls(14-05-2026)/Axios/Axios";
 
 // 
-import ThemeContext from "./Context Api - Redux(22-05-2026)/Context API/ThemeContext";
-import AuthContext from "./Context Api - Redux(22-05-2026)/Context API/AuthContext";
-// import store from "./Context Api - Redux(22-05-2026)/Redux/Store";
-import A from "./Context Api - Redux(22-05-2026)/Redux/A";
-import { Provider } from "react-redux";
-import store1 from "./Context Api - Redux(22-05-2026)/Redux/Store1";
-import A1 from "./Context Api - Redux(22-05-2026)/Redux/A1";
-import TimerContext from "./Context Api - Redux(22-05-2026)/Context API/TimerContext";
+// import ThemeContext from "./Context Api - Redux(22-05-2026)/Context API/ThemeContext";
+// import AuthContext from "./Context Api - Redux(22-05-2026)/Context API/AuthContext";
+// // import store from "./Context Api - Redux(22-05-2026)/Redux/Store";
+// import A from "./Context Api - Redux(22-05-2026)/Redux/A";
+// import { Provider } from "react-redux";
 // import store1 from "./Context Api - Redux(22-05-2026)/Redux/Store1";
+// import A1 from "./Context Api - Redux(22-05-2026)/Redux/A1";
+// import TimerContext from "./Context Api - Redux(22-05-2026)/Context API/TimerContext";
+// // import store1 from "./Context Api - Redux(22-05-2026)/Redux/Store1";
+
+//
+
+import Reducer from "./UseReducer,ReduxToolkit(25-05-2026)/Redux Toolkit/Reducer";
+import store from "./UseReducer,ReduxToolkit(25-05-2026)/Redux Toolkit/Store";
+import { Provider } from "react-redux";
+import CartReducer from "./UseReducer,ReduxToolkit(25-05-2026)/Redux Toolkit/CartReducer";
+import Form from "./UseReducer,ReduxToolkit(25-05-2026)/Use Reducer/Form";
+import FeedbackForm from "./UseReducer,ReduxToolkit(25-05-2026)/Use Reducer/FeedBack";
 
 
 function App() {
 
   return (
 
-    <div>
+    <div style={{ textAlign: "center" }}>
 
-      <h2>Context Api - </h2>
-      <ThemeContext />
-      <br/>
+      <h1><u>Use Reducer</u></h1>
+
+      <Form />
       <hr/>
-      <AuthContext/>
-      <hr/>
-      <TimerContext/>
-      <hr/>
-      <h2>REDUX - </h2>
-      <Provider store = {store1}>
-        {/* <A/> */}
-        <A1/>
+      <FeedbackForm/>
+
+
+      <hr /><hr />
+
+      <h1><u>Redux Toolkit</u></h1>
+
+      <Provider store={store}>
+        <Reducer />
+        <hr />
+        <CartReducer />
       </Provider>
 
-      
     </div>
 
   )
