@@ -81,13 +81,17 @@ import React from "react";
 
 //
 
-import Reducer from "./UseReducer,ReduxToolkit(25-05-2026)/Redux Toolkit/Reducer";
-import store from "./UseReducer,ReduxToolkit(25-05-2026)/Redux Toolkit/Store";
-import { Provider } from "react-redux";
-import CartReducer from "./UseReducer,ReduxToolkit(25-05-2026)/Redux Toolkit/CartReducer";
-import Form from "./UseReducer,ReduxToolkit(25-05-2026)/Use Reducer/Form";
-import FeedbackForm from "./UseReducer,ReduxToolkit(25-05-2026)/Use Reducer/FeedBack";
+// import Reducer from "./UseReducer,ReduxToolkit(25-05-2026)/Redux Toolkit/Reducer";
+// import store from "./UseReducer,ReduxToolkit(25-05-2026)/Redux Toolkit/Store";
+// import { Provider } from "react-redux";
+// import CartReducer from "./UseReducer,ReduxToolkit(25-05-2026)/Redux Toolkit/CartReducer";
+// import Form from "./UseReducer,ReduxToolkit(25-05-2026)/Use Reducer/Form";
+// import FeedbackForm from "./UseReducer,ReduxToolkit(25-05-2026)/Use Reducer/FeedBack";
 
+// 
+import A from "./Optimization Techniques(26-05-2026)/A";
+import Menu from "./Optimization Techniques(26-05-2026)/Menu";
+import Memo from "./Optimization Techniques(26-05-2026)/UseMemo";
 
 function App() {
 
@@ -95,22 +99,16 @@ function App() {
 
     <div style={{ textAlign: "center" }}>
 
-      <h1><u>Use Reducer</u></h1>
+     <A/>
 
-      <Form />
-      <hr/>
-      <FeedbackForm/>
+     <hr/>
 
+     <Menu/>
 
-      <hr /><hr />
+     <hr/>
 
-      <h1><u>Redux Toolkit</u></h1>
+     <Memo/>
 
-      <Provider store={store}>
-        <Reducer />
-        <hr />
-        <CartReducer />
-      </Provider>
 
     </div>
 
