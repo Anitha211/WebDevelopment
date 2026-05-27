@@ -89,9 +89,19 @@ import React from "react";
 // import FeedbackForm from "./UseReducer,ReduxToolkit(25-05-2026)/Use Reducer/FeedBack";
 
 // 
-import A from "./Optimization Techniques(26-05-2026)/A";
-import Menu from "./Optimization Techniques(26-05-2026)/Menu";
-import Memo from "./Optimization Techniques(26-05-2026)/UseMemo";
+// import A from "./Optimization Techniques(26-05-2026)/A";
+// import Menu from "./Optimization Techniques(26-05-2026)/Menu";
+// import Memo from "./Optimization Techniques(26-05-2026)/UseMemo";
+
+// 
+
+import A from "./Api Calls(27-05-2026)/Axios/Get"
+import B from "./Api Calls(27-05-2026)/Axios/Post"
+import C from "./Api Calls(27-05-2026)/Axios/Axios curd";
+import Photogallary from "./Api Calls(27-05-2026)/Fetch/Photogallary";
+import Loading from "./Api Calls(27-05-2026)/Fetch/Loading";
+import Fetch from "./Api Calls(27-05-2026)/Fetch/Fetch Curd";
+
 
 function App() {
 
@@ -99,15 +109,27 @@ function App() {
 
     <div style={{ textAlign: "center" }}>
 
-     <A/>
+      {/* <A/>
+      <hr></hr>
+      <B/>
+      <hr></hr>
+      <C/> */}
 
-     <hr/>
+      {/* fetch */}
+{/* 
+      <Loading/>
 
-     <Menu/>
+      <hr></hr>
+      
+      <Photogallary/>
 
-     <hr/>
+      <br></br>
+      <hr/>
+      <br/> */}
 
-     <Memo/>
+      <Fetch/>
+      
+
 
 
     </div>
