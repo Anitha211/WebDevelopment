@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<style>
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5pxpx;
+        border: 2px solid black;
+    }
+
+    .box {
+        width: 60px;
+        background: skyblue;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* */
+
+    .navbar {
+        display: flex;
+        gap: 20px;
+        background-color: lightblue;
+        padding: 15px;
+        justify-content: end;
+    }
+
+    /* Navbar */
+
+   
+     .Navbar{
+                display:flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: blue;
+                padding: 10px 20px;
+                color: white
+            }
+
+            .Logo{
+                font-size: 22px;
+                font-weight:bold;
+            }
+
+            .search{
+                width: 300px;
+                padding: 6px;
+                border-radius:4px;
+                border:none;
+            }
+
+            .Menu{
+                display: flex;
+                gap: 20px;
+            }
+
+            .Menu li{
+                cursor: pointer;
+            }
+
+            .icons{
+                display: flex;
+                gap:15px
+            }
+
+            .Menu li:hover{
+                color:rgb(14, 14, 13)
+            }
+</style>
+
+<body>
+
+    <div class="container">
+
+        <div class="box">A</div>
+        <div class="box">B</div>
+        <div class="box">C</div>
+
+    </div>
+
+    <hr>
+
+    <div class="navbar">
+
+        <div>Home</div>
+        <div>About</div>
+        <div>Services</div>
+        <div>Contact</div>
+
+    </div>
+
+    <br>
+    <hr><br>
+
+    <!-- Registration Form  -->
+
+    <form class="form">
+
+        <h2>Registration Form</h2>
+
+        <!-- row 1 -->
+
+        <div class="row">
+
+            <div class="input-box">
+                <label>First Name </label>
+                <input type="text" placeholder="Enter first name">
+            </div>
+
+            <div class="input-box">
+                <label>Last Name </label>
+                <input type="text" placeholder="Enter Last name">
+            </div>
+        </div>
+
+        <!-- row -2 -->
+
+        <div class="row">
+
+            <div class="input-box">
+                <label>Email </label>
+                <input type="email" placeholder="Enter Email">
+            </div>
+
+            <div class="input-box">
+                <label>Mobile Number </label>
+                <input type="tel" placeholder="Enter mobile number">
+            </div>
+        </div>
+
+        <!-- row 3 -->
+
+        <div class="row">
+
+            <div class="input-box">
+                <label>Password </label>
+                <input type="password" placeholder="Enter Password">
+            </div>
+
+            <div class="input-box">
+                <label>Confirm Password </label>
+                <input type="password" placeholder="Confirm password">
+            </div>
+        </div>
+
+        <!-- row 4 -->
+
+        <div class="row">
+
+            <div class="input-box">
+                <label>Date of Birth </label>
+                <input type="date">
+            </div>
+
+            <div class="input-box">
+                <label>Upload File</label>
+                <input type="file">
+            </div>
+        </div>
+
+        <!-- gender -->
+
+        <div class="input-box">
+
+            <label>Gender: </label>
+
+            <div class="gender">
+
+                <label>
+                    <input type="radio" name="gender"> Male
+                </label>
+
+                <label>
+                    <input type="radio" name="gender">Female
+                </label>
+
+            </div>
+        </div>
+
+        <!-- Terms -->
+
+        <div class="checkbox">
+
+            <input type="checkbox">
+
+            <label>I agree to Terms & Conditions</label>
+        </div>
+
+        <!-- button -->
+        <button class="re-btn">Register</button>
+
+    </form>
+
+
+    <br><hr><br>
+
+    <nav class="Navbar">
+        <div class="Logo">ShopEasy</div>
+
+        <input type="text" placeholder="Search products.." class="search">
+
+        <ul class="Menu">
+            <li>Home</li>
+            <li>Products</li>
+            <li>Categories</li>
+        </ul>
+
+        <div class="icons">
+            <span>Cart</span>
+            <span>Login</span>
+        </div>
+        </nav>
+
+    </div>
+</body>
+
+</html>
