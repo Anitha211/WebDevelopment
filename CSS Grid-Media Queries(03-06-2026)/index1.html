@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<style>
+    .container {
+        display: grid;
+        grid-template-areas:
+            "header header"
+            "menu content"
+            "footer footer";
+        grid-template-columns: 1fr 3fr;
+        gap: 3px;
+        background-color: dodgerblue;
+        padding: 5px;
+        width: 50%;
+        font-size: 50px;
+    }
+
+    .container div {
+        background-color: white;
+        padding: 10px;
+    }
+
+    .container div.header {
+        grid-area: header;
+        text-align: center;
+    }
+
+    .container div.menu {
+        grid-area: menu;
+    }
+
+    .container div.content {
+        grid-area: content;
+    }
+
+    .container div.footer {
+        grid-area: footer;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <!-- <div class="container">
+        <div class="header">
+            <h2>My Header</h2>
+        </div>
+        <div class="menu">
+            <a href="#">Link 1</a>
+            <br>
+            <a href="#">Link 2</a>
+            <br>
+            <a href="#">Link 3</a>
+        </div>
+
+        <div class="content">
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ridiculus sit nisl laoreet facilisis aliquet.
+                Potenti dignissim litora eget montes rhoncus sapien neque urna.
+                Cursus libero sapien integer magnis ligula lobortis quam ut.</p>
+        </div>
+
+        <div class="footer">
+            <h4>Footer</h4>
+        </div>
+
+    </div> -->
+
+    <!-- <br><hr><br> -->
+    <!--  -->
+
+    <h1 class="title">Photo Gallary</h1>
+
+    <div class="gallery">
+
+        <div class="image-card">
+            <img src="https://picsum.Photos/400/300?1" alt="">
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.Photos/400/300?2" alt="">
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.Photos/400/300?3" alt="">
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.Photos/400/300?4" alt="">
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.Photos/400/300?5" alt="">
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.Photos/400/300?6" alt="">
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.Photos/400/300?7" alt="">
+        </div>
+
+        <div class="image-card">
+            <img src="https://picsum.Photos/400/300?8" alt="">
+        </div>
+
+    </div>
+
+    <!--  -->
+
+    <br><hr><br>
+
+    <div class="profile-container">
+
+        <div class="profile-header">
+
+            <div class="profile-image">
+
+                <img src="https://picsum.Photos/200" alt="">
+
+            </div>
+
+            <div class="profile-info">
+
+                <div class="top-section">
+                    <h2>John_doe</h2>
+                    <button>Edit Profile</button>
+                </div>
+
+                <div class="stats">
+                    <p><strong>120</strong> Posts</p>
+                    <p><strong>Sk</strong> Followers</p>
+                    <p><strong>500</strong></p>
+                </div> 
+
+                <div class="bio">
+                    <h4>John Doe</h4>
+                    <p>Frontend Developer</p>
+                </div>
+            </div>
+
+            <div class="photos">
+                <img src="https://picsum.photos/400?1" alt="">
+                <img src="https://picsum.photos/400?2" alt="">
+                <img src="https://picsum.photos/400?3" alt="">
+                <img src="https://picsum.photos/400?4" alt="">
+                <img src="https://picsum.photos/400?5" alt="">
+                <img src="https://picsum.photos/400?6" alt="">
+                <img src="https://picsum.photos/400?7" alt="">
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
