@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+</head>
+
+<style>
+    .UL {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+    }
+
+    li {
+        padding: 10px 20px;
+        background-color: lightgray;
+        cursor: pointer
+    }
+
+    .active {
+        background-color: blue;
+        color: white;
+    }
+
+    /*  */
+
+    .tab {
+        display: inline-block;
+        padding: 10px;
+        background: lightcoral;
+        cursor: pointer;
+    }
+
+    .content {
+        display: none;
+        padding: 20px;
+        border: 1px solid coral;
+    }
+
+    /*  */
+
+    .card {
+        width: 300px;
+        border: 1px solid gray;
+        padding: 10px;
+    }
+
+    .details {
+        display: none;
+    }
+</style>
+
+<body>
+
+    <h1 id="title">Document Object Model</h1>
+
+    <button onclick="changeText()">Change Text</button>
+
+    <!--  -->
+
+    <p class="msg">This is a Paragraph</p>
+
+    <button onclick="changeColor()">Change Color</button>
+
+    <!--  -->
+
+    <h2 class="item">Apple</h2>
+    <h2 class="item">Mango</h2>
+    <h2 class="item">Orange</h2>
+
+    <button onclick="changeAll()">Change All</button>
+
+    <!--  -->
+    <br><br>
+
+    <input type="text" id="name">
+    <button onClick="showName()">Show</button>
+    <p id="result"></p>
+
+    <!--  -->
+    <br><br>
+
+    <!--  -->
+    <p id="status">OFF</p>
+    <button onClick="toggle()">Toggle</button>
+
+    <!--  -->
+    <br><br>
+
+    <ul id="list"></ul>
+    <button onClick="addItem()"> Add Item</button>
+
+    <!--  -->
+
+    <p id="para">This paragraph will be removed</p>
+    <button onClick="removePara()">Remove Paragraph</button>
+
+    <!--  -->
+
+    <h1 id="count">0</h1>
+
+    <button onClick="increase()">Increase</button>
+    <button onClick="decrease()">Decrease</button>
+
+    <!--  -->
+    <br><br>
+
+    <table border="3" id="table"></table>
+
+    <br>
+    <!--  -->
+
+    <input id="userName" type="text" placeholder="Enter Name...">
+
+    <button onClick="showName()">Show</button>
+
+    <h3 id="result"></h3>
+
+    <!--  -->
+
+    <h2>Event Counter (clouser)</h2>
+
+    <button id="btn">Click</button>
+
+    <h3 id="Result">Click 0 times</h3>
+
+    <!--  -->
+
+    <br>
+    <hr><br>
+
+    <ul class="UL">
+
+        <li onclick="setActive(this)" class="active">
+            Home
+        </li>
+
+        <li onclick="setActive(this)">
+            About
+        </li>
+
+        <li onclick="setActive(this)">
+            Services
+        </li>
+
+        <li onclick="setActive(this)">
+            Contact
+        </li>
+    </ul>
+
+    <br>
+    <hr><br>
+    <!--  -->
+
+    <div class="tab">HTML</div>
+    <div class="content">HTML Content</div>
+
+    <div class="tab">CSS</div>
+    <div class="content">CSS Content</div>
+
+    <div class="tab">JavaScript</div>
+    <div class="content">JavaScript Content</div>
+
+    <!--  -->
+    <br>
+    <hr><br>
+
+    <div class="card">
+
+        <h2>Web Development</h2>
+
+        <button class="Btn">View Details</button>
+
+        <p class="details">
+            Learn HTML, CSS, Java Script.
+        </p>
+
+    </div>
+
+    <!--  -->
+    <br>
+    <hr><br>
+
+    <label>Password: </label>
+    <input type="password" id="password">
+    <br><br>
+    <button id="showBtn">Show Password</button>
+
+    <!--  -->
+    <br>
+    <hr><br>
+
+    <input type="text" id="itemInput">
+
+    <button id="addBtn">Add Item</button>
+
+    <ul id="output"></ul>
+
+    <!--  -->
+
+    <br><hr><br>
+
+    <h2>Form Validation</h2>
+
+    <form id="myform">
+
+        <label>Name: </label>
+         <input id="name" type="text" placeholder="Enter Name">
+        <p id="nameError"></p>
+
+        <label>Email: </label>
+        <input id="email" type="email" placeholder="Enter Email">
+        <p id="emailError"></p>
+
+        <label>Password: </label>
+         <input id="password" type="password" placeholder="Enter password">
+        <p id="passwordError"></p>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <!--  -->
+
+    <br><hr><br>
+
+    <h1>Digital Clock</h1>
+    <h2 id="clock"></h2>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
