@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2><u>Event Bubbling</u></h2>
+
+    <div id="Parent">Parent
+        <button id="child">
+            Click Here
+        </button>
+    </div>
+
+    <br><br>
+
+    <!--  -->
+
+    <div id="grandparent">
+        <div id="parent">
+            <button id="Child">Event Bubblling</button>
+        </div>
+    </div>
+
+    <h3>Output:</h3>
+    <p id="result"></p>
+
+    <!--  -->
+
+    <div id="cart">
+        <h2>Shopping Cart</h2>
+
+        <button id="buyBtn">
+            Buy Product
+        </button>
+    </div>
+
+    <!-- Event Capturing -->
+
+    <h2><u>Event Capturing</u></h2>
+
+    <div id="P">
+        <button id="C">
+            Event Capturing
+        </button>
+    </div>
+
+    <!--  -->
+
+    <div id="navbar">
+
+        <h2>Navbar</h2>
+
+        <button id="menuBtn">
+            Open Menu
+        </button>
+
+    </div>
+
+    <!-- Event Delegation -->
+
+    <h2><u>Event Delegation</u></h2>
+
+    <h3>To-Do List</h3>
+
+    <ul id="taskList">
+        <li>JavaScript</li>
+        <li>Document Object Model (DOM)</li>
+        <li>React JS</li>
+    </ul>
+
+    <!--  -->
+
+    <br>
+
+    <button id="addBtn">Add Task</button>
+    <ul id="task"></ul>
+
+    <!--  -->
+
+    <br><br>
+
+    <h3>Click on Menu Items</h3>
+    <ul id="menu">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+
+    <!--  -->
+
+    <table id="students" border="1">
+
+        <tr>
+            <td>A</td>
+        </tr>
+
+        <tr>
+            <td>B</td>
+        </tr>
+
+        <tr>
+            <td>C</td>
+        </tr>
+
+    </table>
+
+    <!--  -->
+
+    <br><br>
+
+    <div id="btns">
+        <button> Save </button>
+        <button> Edit </button>
+        <button> Delete </button>
+    </div>
+
+    <!--  -->
+
+    <h3>File Explorer</h3>
+
+    <div id="explorer">
+
+        <div id="item">Documents</div>
+        <div id="item">Images</div>
+        <div id="item">Resume</div>
+
+    </div>
+
+    <!--  -->
+
+    <br><br>
+
+    <h2><u>Normal Event</u></h2>
+
+    <button id="BTN">Click Me</button>
+
+    <!--  -->
+    <br><br>
+
+    <button id="Btn1">Click</button>
+    <p id="Output">Value Of a1 : 0</p>
+
+    <!--  -->
+
+    <br>
+    <br>
+
+    <label>Name:
+
+    </label>
+    <input type="text" id="name">
+
+    <!--  -->
+
+    <br>
+    <br>
+
+    <select id="city">
+        <option>Hyderabad</option>
+        <option>Kadapa</option>
+        <option>Delhi</option>
+    </select>
+
+    <!--  -->
+
+    <br>
+    <br>
+
+    <form id="form">
+
+        <label>Name: </label>
+        <input type="text" placeholder="Entername">
+
+        <button type="submit"> Submit </button>
+
+    </form>
+
+    <!--  -->
+
+    <br>
+    <br>
+
+    <h3>Login Form</h3>
+
+    <form id="loginForm">
+
+        <label>UserName: </label>
+        <input type="text" placeholder="Enter Username" id="Username">
+
+        <br>
+        <br>
+
+        <label>Password: </label>
+        <input type="password" placeholder="Enter Password" id="password">
+
+        <br><br>
+
+        <button type="submit">Login</button>
+    </form>
+
+    <h3 id="message"></h3>
+
+    <!--  -->
+
+    <h2><u>Event Throttling</u></h2>
+
+    <button id="Btn">Click Fast</button>
+
+    <!--  -->
+
+    <br><br>
+
+     <h2 id="output"></h2>
+
+    <input type="text" id="search">
+
+    <!--  -->
+
+    <br><br>
+
+     <div id="mouse">
+        <button>
+            Move the mouse inside the box
+        </button>
+    </div>
+   
+    <!--  -->
+
+    <h2><u>Event Debouncing</u></h2>
+
+    <button id="submitBtn"> Submit </button>
+
+    <h2 id="output"></h2>
+
+    <!--  -->
+
+     <input id="input1" 
+            type="text" 
+            placeholder="Type here....">
+
+    <p id="out"></p>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
