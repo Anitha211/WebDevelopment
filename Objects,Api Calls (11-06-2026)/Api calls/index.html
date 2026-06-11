@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API CALLS</title>
+</head>
+<body>
+
+    <h1>API - Application Programming Interfaces</h1>
+
+    <ul id="users"></ul>
+
+    <!--  -->
+
+    <h2>Search User </h2>
+
+    <input type="number" id="userId">
+    <button onclick="searchUser()">Search</button>
+
+    <h3 id="result"></h3>
+
+    <!--  -->
+
+    <h2>Loading Message</h2>
+
+    <button onclick="loadUsers()">Load Users</button>
+
+    <h2 id="loading"></h2>
+    <div id="user"></div>
+
+    <!--  -->
+
+    <h2>User Cards</h2>
+
+    <button onclick="loadUser()">Load Details</button>
+
+    <div id="container"></div>
+
+    <!--  -->
+
+    <br><br>
+
+    <input type="number" id="postId" placeholder="Enter Post ID">
+    <button onclick="deletePosts()"> Delete </button>
+
+    <h2 id="msg"></h2>
+
+    <!--  -->
+
+    <br>
+
+    <button onclick="loadPosts()">Get Posts</button>
+
+    <h3 id="posts"></h3>
+
+    <!--  -->
+
+    <button onclick="getUSERS()">Get</button>
+
+    <button onclick="createUsers()"> Post </button>
+
+    <button onclick="updateUser()"> Update</button>
+
+    <button onclick="DeleteUsers()"> Delete</button>
+
+    <div id="output"></div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
