@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<style>
+
+    body{
+        font-family: Arial, sans-serif;
+        background-color: white;
+        background-color: yellowgreen;
+    }
+
+    .container{
+        width: 600px;
+        margin: 50px auto;
+        background-color: white;
+        padding: 40px;
+        border-radius: 10px;
+    }
+
+    h1{
+        text-align: center;
+        color: darkorange;
+    }
+
+    h2{
+        text-align: center;
+        color: #3498db;
+    }
+
+    input, select{
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    button{
+        padding: 10px 20px;
+        cursor: pointer;
+        border: none;
+        margin-right: 10px;
+        align-items: center;
+    }
+
+    .register{
+        background-color: #3498db;
+    }
+
+    .reset{
+        background-color: #e74c3c;
+    }
+
+    label{
+        font-weight: bold;
+        color: crimson;
+    }
+
+</style>
+
+<body>
+
+    <div class="container">
+
+        <h1>Student Registration Form</h1>
+
+        <form>
+
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter password" required>
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter Password" minlength="8" required>
+
+            <label> Date of Birth</label>
+            <input type="date" required>
+
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter mobile number" required>
+
+            <label>Age</label>
+            <input type="number" placeholder="Enter your age" required>
+
+            <label>Gender</label><br>
+
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+
+            <br><br>
+
+            <label>Course</label>
+
+            <select required>
+
+                <option value="">Select Course</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JS</option>
+                <option>React</option>
+
+            </select>
+
+
+
+            <button type="submit" class="register">Register</button>
+
+            <button type="reset" class="reset">Reset</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
+
+
