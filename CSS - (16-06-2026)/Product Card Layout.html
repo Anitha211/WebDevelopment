@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+
+</head>
+
+<style>
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background-color: white;
+        padding: 40px;
+    }
+
+    /* nav */
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        color: white;
+        padding: 15px 30px;
+        margin-bottom: 20px;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    /* search */
+
+    .search {
+        text-align: center;
+        margin: 5px;
+    }
+
+    .search input {
+        width: 300px;
+        padding: 10px;
+    }
+
+    .product {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    h3 {
+        margin-top: 20px;
+        color: brown;
+    }
+
+    .Card {
+        width: 260px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 40px;
+        text-align: center;
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        transition: 0.3s; */
+        position: relative;
+    }
+
+    .Card:hover {
+        /* transform: scale(1.05); */
+        background-color: whitesmoke;
+    }
+
+    .Card img {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .badge {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: red;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .discription {
+        color: gray;
+        margin-top: 25px;
+    }
+
+    .rating {
+        margin: 10px 10px;
+        font-size: 30px;
+        /* margin-bottom: ; */
+    }
+
+    .old-price {
+        color: darkgreen;
+        margin-bottom: 5px;
+    }
+
+    .new-price {
+        color: green;
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .btns {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    button {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: green;
+    }
+</style>
+
+<body>
+
+    <!-- navigation bar -->
+
+    <nav>
+        <h2>My Store</h2>
+
+        <!-- search -->
+        <div class="search">
+            <input type="text" placeholder="Search Product">
+        </div>
+
+        <ul>
+            <li>Home</li>
+            <li>Products</li>
+            <li>Contact</li>
+        </ul>
+
+    </nav>
+
+    <!-- Products -->
+
+    <div class="product">
+
+        <!-- card 1 -->
+
+        <div class="Card">
+
+            <span class="badge">20% OFF</span>
+
+            <img src="./laptop.jpg" alt="Laptop">
+
+            <h3>Laptop</h3>
+
+            <div class="rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
+
+            <p class="discription">16GB RAM, 512GB SSD</p><br>
+
+            <p class="old-price"><del>&#8377;60,000</del></p>
+
+            <p class="new-price">&#8377; 50,000</p>
+
+            <div class="btns">
+                <button>Add to Cart</button>
+                <button>Buy Now</button>
+            </div>
+
+        </div>
+
+        <!-- card 2 -->
+
+        <div class="Card">
+
+            <span class="badge"> 15% OFF </span>
+
+            <img src="./Mobiles.jpg" alt="mobile">
+
+            <h3>Mobile</h3>
+
+            <div class="rating">&#9733; &#9733; &#9733; &#9733; &#9734;</div>
+
+            <p class="discription">8GB RAM, 128GB Storage</p><br>
+
+            <p class="old-price"><del>&#8377;25,000</del></p>
+
+            <p class="new-price">&#8377; 20,000</p>
+
+            <div class="btns">
+                <button>Add to Cart</button>
+                <button>Buy Now</button>
+            </div>
+
+        </div>
+
+        <!-- card 3 -->
+
+        <div class="Card">
+
+            <span class="badge"> 10% OFF </span>
+
+            <img src="./Headphones.jpg" alt="headphones">
+
+            <h3>Headphones</h3>
+
+            <div class="rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
+
+            <p>Noise Cancellation</p><br>
+
+            <p class="old-price"><del>&#8377;2,500</del></p>
+
+            <p class="new-price">&#8377; 3,000</p>
+
+            <div class="btns">
+                <button>Add to Cart</button>
+                <button>Buy Now</button>
+            </div>
+
+        </div>
+
+        <!-- card 4 -->
+
+        <div class="Card">
+
+            <span class="badge"> 30% OFF </span>
+
+            <img src="./Smart Image.avif" alt="smartwatch">
+
+            <h3>Smart Watch</h3>
+
+            <div class="rating">&#9733; &#9733; &#9733; &#9733; &#9734;</div>
+
+            <p>Fitness Tracking</p><br>
+
+            <p class="old-price"><del>&#8377; 2,999</del></p>
+
+            <p class="new-price">&#8377; 1,599</p>
+
+            <div class="btns">
+                <button>Add to Cart</button>
+                <button>Buy Now</button>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+

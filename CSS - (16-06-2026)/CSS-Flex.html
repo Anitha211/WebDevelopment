@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layouts</title>
+    <!-- <link rel="stylesheet" href="./index.css"> -->
+</head>
+
+<style>
+
+    .card{
+        width: 250px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        border: 1px solid rgb(141, 140, 140);
+    }
+
+    .card img{
+        width: 250px;
+        height: 150px;
+    }
+
+    /* responsive bar */
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(0, 60, 255);
+        padding: 15px;
+        color: white;
+    }
+
+    ul{
+        display: flex;
+        gap: 20px;
+        font-size: 20px;
+        color: white;
+    }
+
+    /* Landing page */
+
+    .hero{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+        color: white;
+        padding: 8px;
+
+    }
+
+    button{
+        padding: 10px 20px;
+        color: black;
+        background-color: orange;
+        border: none;
+        border-radius: 5px;
+    }
+
+    /* Price card layouts */
+
+    .container{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 50px;
+    }
+
+    .plan{
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+    }
+
+    #btn{
+        padding: 10px;
+        color: white;
+        background-color: blue;
+        border: none;
+        border-radius: 5px;
+    }
+
+    #btn:hover{
+        background-color: rgb(27, 27, 209);
+    }
+
+
+</style>
+
+<body>
+    <h1>Profile Card</h1>
+    <div class="card">
+        <img src="./image.png" alt="">
+        <h2>Jhon Doe</h2>
+        <p>Web Developer</p>
+    </div>
+
+    <br><hr><br>
+
+    <h1>Responsive Navigation Bar</h1>
+
+    <nav>
+        <h2>MyLogo</h2>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <br><hr><br>
+
+    <h1>Landing Page</h1>
+
+    <section class="hero">
+        <div>
+            <h1>Welcome</h1>
+            <p>Learn CSS Flexbox</p>
+            <button>Get Started</button>
+        </div>
+    </section>
+
+    <br><hr><br>
+
+    <h1>Price Card layouts</h1>
+
+    <div class="container">
+
+        <div class="plan">
+            <h2>Basic</h2>
+            <h3>499</h3>
+            <button id="btn">Buy</button>
+        </div>
+
+        <div class="plan">
+            <h2>Standard</h2>
+            <h3>499</h3>
+            <button id="btn">Buy</button>
+        </div>
+
+        <div class="plan">
+            <h2>Premium</h2>
+            <h3>499</h3>
+            <button id="btn">Buy</button>
+        </div>
+    </div>
+
+</body>
+</html>

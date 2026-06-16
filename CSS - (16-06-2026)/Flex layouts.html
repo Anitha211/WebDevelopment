@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex - layouts</title>
+</head>
+
+<style>
+    * {
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        border: 2px solid black;
+        height: 150px;
+        margin-bottom: 20px;
+        background-color: white;
+    }
+
+    .box {
+        width: 80px;
+        height: 80px;
+        background-color: green;
+        margin: 5px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+</style>
+
+<body>
+
+    <h1>Flex - Layouts</h1>
+
+    <h2>1. flex-direction: row</h2>
+
+    <div class="container" style="flex-direction: row;">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+    <h2>2. flex-direction: column</h2>
+
+    <div class="container" style="flex-direction: column;">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+    <h2>3. justify-content: center</h2>
+
+    <div class="container" style="justify-content: center;">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+
+    <h2>4. justify-content: flex-end</h2>
+
+    <div class="container" style="justify-content: flex-end;">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+    <h2>5. justify-content: space-between</h2>
+
+    <div class="container" style="justify-content: space-between;">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+    <h2>6. justify-content: space-around</h2>
+
+    <div class="container" style="justify-content: space-around;">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+    <h2>7. align-items: center</h2>
+
+    <div class="container" style="align-items: center;">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+    <h2>8. align-items: flex-end</h2>
+
+    <div class="container" style="align-items: flex-end;">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+    
+</body>
+
+</html>
