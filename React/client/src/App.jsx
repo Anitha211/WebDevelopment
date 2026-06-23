@@ -22,14 +22,20 @@ import React from "react";
 // import Loading from "./19-06-2026/Conditional Rendering/API Loading";
 
 
-import Fetch from "./22-06-2026/API Calls/Fetch";
-import Users from "./22-06-2026/Custom Hook/Users";
-import Counter from "./22-06-2026/Custom Hook/Counter";
-import Theme from "./22-06-2026/Custom Hook/Theme";
-import Timer from "./22-06-2026/useEffet/Timer";
-import CharacterCount from "./22-06-2026/useEffet/Char Counter";
-import Login from "./22-06-2026/useEffet/Login";
-import Axios from "./22-06-2026/API Calls/Axios";
+// import Fetch from "./22-06-2026/API Calls/Fetch";
+// import Users from "./22-06-2026/Custom Hook/Users";
+// import Counter from "./22-06-2026/Custom Hook/Counter";
+// import Theme from "./22-06-2026/Custom Hook/Theme";
+// import Timer from "./22-06-2026/useEffet/Timer";
+// import CharacterCount from "./22-06-2026/useEffet/Char Counter";
+// import Login from "./22-06-2026/useEffet/Login";
+// import Axios from "./22-06-2026/API Calls/Axios";
+
+
+import A from "./23-06-2026/Optimizatition Techniques/A";
+import Todo from "./23-06-2026/Optimizatition Techniques/Todo";
+import Users from "./23-06-2026/Optimizatition Techniques/Users";
+import Table from "./23-06-2026/Optimizatition Techniques/Table";
 
 function App() {
 
@@ -37,24 +43,19 @@ function App() {
 
     <div style={{ textAlign: "center" }}>
 
-      <h1>API Calls</h1>
-      <Fetch />
-      <hr />
-      <Axios />
-      <hr />
-      <h1>Custom Hook</h1>
-      <Users />
-      <hr />
-      <Counter />
-      <hr />
-      <Theme />
-      <hr />
-      <h1>useEffect Hook</h1>
-      <Timer />
-      <hr />
-      <CharacterCount />
-      <hr />
-      <Login />
+      <A/>
+
+      <hr/>
+
+      <Todo/>
+
+      <hr/>
+
+      <Users/>
+
+      <hr/>
+
+      <Table/>
 
     </div>
 
