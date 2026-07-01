@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.container{
+    width: 900px;
+    margin: 20px auto;
+}
+
+.header,
+.footer{
+    background-color: skyblue;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: orange;
+}
+
+.middle{
+    display: flex;
+    gap:10px;
+    margin-bottom: 10px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 10px;
+}
+
+.hero{
+    background-color: lightgray;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sidebar{
+    background-color: rgb(59, 139, 59);
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background:yellow;
+    height: 360px;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+
+}
+
+.extra{
+    background-color: gray;
+    height: 120px;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+
+.bottom{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.images{
+    flex: 1;
+    background-color:lightgreen;
+    height: 120px;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+
+.posts{
+    flex: 1;
+    background-color: lightpink;
+    height: 120px;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}

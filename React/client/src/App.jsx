@@ -1,4 +1,5 @@
 import React from "react";
+import A from "./usecallback/A";
 
 // import AppProvider from "./18-06-2026/Context Api/Theme+Login System/AppProvider";
 // import Home from "./18-06-2026/Context Api/Theme+Login System/Home";
@@ -32,10 +33,6 @@ import React from "react";
 // import Axios from "./22-06-2026/API Calls/Axios";
 
 
-import A from "./23-06-2026/Optimizatition Techniques/A";
-import Todo from "./23-06-2026/Optimizatition Techniques/Todo";
-import Users from "./23-06-2026/Optimizatition Techniques/Users";
-import Table from "./23-06-2026/Optimizatition Techniques/Table";
 
 function App() {
 
@@ -44,18 +41,6 @@ function App() {
     <div style={{ textAlign: "center" }}>
 
       <A/>
-
-      <hr/>
-
-      <Todo/>
-
-      <hr/>
-
-      <Users/>
-
-      <hr/>
-
-      <Table/>
 
     </div>
 

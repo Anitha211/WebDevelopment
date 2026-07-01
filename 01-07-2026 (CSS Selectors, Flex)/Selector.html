@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Selector.Css">
+</head>
+
+<style>
+    /* Element Selector */
+
+    h1{
+        color: blue;
+    }
+
+    /* Class Selector */
+
+    .a{
+        color: green;
+        background-color: aqua;
+        font-weight: bold;
+    }
+
+    /* ID selector */
+
+    #login{
+        background-color: red;
+        color: white;
+    }
+
+    /* Universal Selector */
+*{
+    box-sizing: border-box;
+    background-color: burlywood;
+}
+
+/* Group Selector */
+
+h1,h2{
+    color: brown;
+    background-color: blueviolet;
+}
+
+/* descendant selector */
+
+.card h3{
+    color: rgb(48, 59, 37);
+}
+
+.card p{
+    color: red;
+}
+
+/* Child selector */
+
+.box > h4{
+    color: darkturquoise;
+}
+
+/* Attribute selector */
+input[type="tel"]{
+    background-color: lightyellow;
+    color: black;
+}
+
+/* Hover Selector */
+
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+/* Pseudo */
+
+li:first-child{
+    color: red;
+}
+
+li:nth-child(2){
+    color: blue;
+}
+
+li:last-child{
+    color: green;
+}
+</style>
+
+<body>
+
+    <h1>Element Selector</h1>
+    <h1>Selects all elements of same tags.</h1>
+
+    <!--  -->
+
+    <p class="a">Class Selector</p>
+    <p class="a">Selects elements with specific classname</p>
+
+    <!--  -->
+
+    <button id="login">ID selector</button>
+
+
+    <!--  -->
+
+    <h2>Group Selector is used select multiple tags together</h2>
+
+    <div class="card">
+
+        <h3>descendant selector</h3>
+        <p>slects all child tags inside the parent element</p>
+    </div>
+
+    <!--  -->
+
+    <div class="box">
+        <h4>Child selector</h4>
+
+        <div>
+            <h4>selects direct child elements</h4>
+        </div>
+    </div>
+    
+    <!--  -->
+
+    <h2>Attribute Selector</h2>
+
+    <input type="text" placeholder="Name">
+    <input type="tel" placeholder="Number">
+
+    <!--  -->
+
+    <button>Hover Selector</button>
+
+    <!--  -->
+
+    <ul>
+        <li>Pseudo selector</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ul>
+
+    
+</body>
+</html>
