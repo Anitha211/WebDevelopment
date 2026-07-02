@@ -1,0 +1,81 @@
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap:20px
+}
+
+.header{
+    grid-column: 1/3;
+    background-color: #2196f3;
+    color: white;
+    display: grid;
+    align-items: center;
+    font-size: 28px;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.hero{
+    grid-column: 1/3;
+    background-color: orange;
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+     justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.sidebar{
+    display: grid;
+    background-color: blanchedalmond;
+    color: white;
+}
+
+.sidebar ul{
+    margin-top: 15px;
+}
+
+.siderbar li{
+    margin-bottom: 15px;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: grey;
+    padding: 20px;
+     
+}
+
+.card{
+    background-color: white;
+    height: 160px;
+    display: grid;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 22px;
+     justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.footer{
+
+    grid-column: 1/3;
+    background-color: rgb(206, 71, 71);
+    color: white;
+    display: grid;
+    align-items: center;
+    font-size: 24px;
+     justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
