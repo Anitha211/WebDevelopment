@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--  -->
+
+    <input type="text" id="name">
+    <button onclick="showName()">Submit</button>
+    <h2 id="result"></h2>
+
+    <!--countIncrease()  -->
+
+    <button onclick="countIncrease()">Click</button>
+
+    <p id="output">Button Clicked</p>
+
+    <hr>
+    <!--  -->
+
+    <h2>Login Form</h2>
+
+    <input type="text" id="username" placeholder="Username">
+
+    <br><br>
+
+    <input type="password" id="password" placeholder="password">
+
+    <br><br>
+
+    <button onclick="login()">Login</button>
+
+    <p id="msg"></p>
+
+    <hr>
+
+    <!-- cart -->
+
+    <h2>Shopping Cart</h2>
+
+    <p>Product: Laptop</p>
+    <p>Price: 50000</p>
+
+    <button onclick="addToCart()">Add to Cart</button>
+
+    <h3 id="cart">Cart Items: 0</h3>
+
+    <hr>
+
+    <!-- Todo app -->
+
+    <input id="task">
+
+    <button onclick="addTask()">ADD TASK</button>
+
+    <ul id="LIST"></ul>
+
+    <hr>
+
+    <!-- list items  -->
+
+    <h2>List Items</h2>
+
+    <ul id="list"></ul>
+
+    <button onclick="addItem()">Add Item</button>
+
+    <br>
+    <br>
+    <hr>
+
+    <!-- character counter -->
+
+    <textarea id="TEXT" onkeyup="countChar()"></textarea>
+
+    <h2 id="COUNT">0 characters</h2>
+
+    <!-- Menus -->
+
+    <hr>
+
+    <h2>Select Course</h2>
+
+    <select onchange="showCourse()" id="course">
+        <option>Select</option>
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JavaScript</option>
+        <option>React</option>
+    </select>
+
+    <h3 id="Result"></h3>
+
+    <hr>
+
+    <!-- change text -->
+
+    <h2 id="text">Hello</h2>
+
+    <button id="btn">Change Text</button>
+
+    <hr>
+     <!-- movuseover and mouseout events -->
+    <div id="Box">Hover</div>
+    <p id="output"></p>
+
+    <!-- dblclick -->
+
+    <button id="BTN">Double Click</button>
+    <p id="res"></p>
+    
+    <!-- keydown -->
+
+    <input type="text" id="name">
+
+    <p id="Output"></p>
+
+    <script src="./Dom.js"></script>
+</body>
+
+</html>
