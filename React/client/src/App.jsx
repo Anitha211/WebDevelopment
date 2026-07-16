@@ -1,13 +1,8 @@
 import React from "react";
-
-import Profile from "./15-07-2026/Conditional rendering/Profile";
-import FoodOrder from "./15-07-2026/Conditional rendering/FoodOrder";
-import APILoading from "./15-07-2026/Conditional rendering/API Loading";
-import TrafficLight from "./15-07-2026/Event Handling and Data Binding/Traffic Light";
-import AgeChecker from "./15-07-2026/Event Handling and Data Binding/AgeChecker";
-import Feedback from "./15-07-2026/Event Handling and Data Binding/FeedbackForm";
-import RegistrationForm from "./15-07-2026/Conditional rendering/User Registration Form";
-
+import A from "./16-07-2026(API Calls)/A"
+import Axios from "./16-07-2026(API Calls)/Axios API";
+import FetchAPI from "./16-07-2026(API Calls)/Fetch API";
+import B from "./16-07-2026(API Calls)/B";
 
 function App() {
 
@@ -15,32 +10,20 @@ function App() {
 
     <div style={{ textAlign: "center" }}>
 
-      <Profile/>
+      <A/>
 
       <hr/>
 
-      <FoodOrder/>
+      <FetchAPI/>
 
       <hr/>
 
-      <APILoading/>
+      <Axios/>
 
       <hr/>
 
-      <TrafficLight/>
-
-      <hr/>
-
-      <AgeChecker/>
-
-      <hr/>
-
-      <Feedback/>
+      <B/>
       
-      <hr/>
-
-      <RegistrationForm/>
-
     </div>
 
   )
