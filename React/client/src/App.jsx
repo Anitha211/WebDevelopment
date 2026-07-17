@@ -1,8 +1,9 @@
 import React from "react";
-import A from "./16-07-2026(API Calls)/A"
-import Axios from "./16-07-2026(API Calls)/Axios API";
-import FetchAPI from "./16-07-2026(API Calls)/Fetch API";
-import B from "./16-07-2026(API Calls)/B";
+import A from "./17-07-2026(Optimization Techniques)/A";
+import Todo from "./17-07-2026(Optimization Techniques)/Todo";
+import Product from "./17-07-2026(Optimization Techniques)/Product";
+
+
 
 function App() {
 
@@ -14,16 +15,12 @@ function App() {
 
       <hr/>
 
-      <FetchAPI/>
+      <Todo/>
 
       <hr/>
 
-      <Axios/>
+      <Product/>
 
-      <hr/>
-
-      <B/>
-      
     </div>
 
   )
