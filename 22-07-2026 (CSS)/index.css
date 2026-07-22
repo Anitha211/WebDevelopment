@@ -1,0 +1,65 @@
+.cart{
+    border: 2px solid black;
+    padding: 10px;
+    width: 20%;
+    background-color: lightblue;
+}
+
+.cart h1{
+    color: rgb(0, 0, 255);
+}
+
+.info{
+    color: green;
+}
+
+#price{
+    color: red;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.card > h2 {
+    color: purple;
+}
+
+button, h3{
+    text-align: center;
+}
+
+input[type="text"] {
+    border: 2px solid blue;
+    padding: 5px;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+h3::first-letter{
+    color:orange;
+    font-size: 30px;
+}
+
+
+
+/* Login form */
+
+.login{
+    width: 250px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 50px;
+}
+
+.login ,input{
+    width: 50%;
+    padding: 8px;
+    margin: 10px;
+}
+
+/*  */
