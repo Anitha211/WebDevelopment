@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+.container{
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    grid-template-rows: 80px 180px auto 70px;
+    gap: 15px;
+}
+
+.header{
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 180px 1fr 120px;
+    align-items: center;
+    gap: 20px;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+}
+
+
+.header input{
+    width: 100%;
+    padding: 10px;
+}
+
+.header button{
+    padding: 10px;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.sidebar{
+    grid-row: 2/4;
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar h3{
+    margin-bottom: 15px;
+}
+.sidebar li{
+    padding: 12px;
+    border-bottom: 1px solid white;
+}
+
+.banner{
+    background-color: orange;
+    color: white;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    font-size: 28px;
+}
+
+.foods{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card{
+    background-color: burlywood;
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.footer{
+    display: grid;
+    grid-column: 1/3;
+    background-color: gray;
+    color: white;
+    place-items: center;
+    border-radius: 10px ;
+}
+
+@media (max-width: 768px) {
+    
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .header{
+        grid-column: 1;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .sidebar{
+        grid-row: auto;
+    }
+
+    .foods{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer{
+        grid-column: 1;
+    }
+}
+
+/* mobile */
+
+@media (max-width:480px) {
+    
+    .foods{
+        grid-template-columns: 1fr;
+    }
+
+    .header{
+        grid-template-columns: 1fr;
+    }
+}
+
+</style>
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <h2>Foodie</h2>
+
+            <input type="text" placeholder="Search Food">
+                        <button>Login</button>
+
+        </header>
+
+        <aside class="sidebar">
+
+            <h3>Catrgories</h3>
+
+            <ul>
+                <li>Burger</li>
+                <li>Pizza</li>
+                <li>Pasta</li>
+                <li>Sandwich</li>
+                <li>Dessert</li>
+            </ul>
+
+        </aside>
+
+        <section class="banner">
+            <h1>Delicious Food Delivered Fast!</h1>
+
+        </section>
+
+        <section class="foods">
+
+            <div class="card">Burger</div>
+            <div class="card">Pizza</div>
+            <div class="card">Pasta</div>
+            <div class="card">Sandwich</div>
+            <div class="card">Dessert</div>
+
+
+        </section>
+
+
+        <footer class="footer">
+            &copy; 2026 Foodie | All Rights Reserved
+        </footer>
+    </div>
+    
+</body>
+</html>
