@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>API - Application Programming Interface</h2>
+
+    <h2>GET</h2>
+
+    <button onclick="getUser()">Get User</button>
+    <div id="output"></div>
+
+    <br><br>
+
+    <button onclick="getUsers()">Load Users</button>
+    <ul id="list"></ul>
+
+    <!--  -->
+
+    <h2>POST</h2>
+
+    <button onclick="createUser()">Create User</button>
+    <div id="result"></div>
+
+    <!--  -->
+
+    <h2>PUT</h2>
+
+    <button onclick="updateUser()">Update User</button>
+    <div id="Output"></div>
+
+    <!--  -->
+
+    <h2>PATCH</h2>
+
+    <button onclick="updateEmail()">Patch</button>
+    <div id="Res"></div>
+
+    <!--  -->
+
+    <h2>DELETE</h2>
+
+    <button onclick="deleteUser()">Delete User</button>
+    <div id="status"></div>
+
+    <!--  -->
+
+    <h2>Search User </h2>
+
+    <input type="number" id="userId">
+    <button onclick="searchUser()">Search</button>
+
+    <h3 id="result1"></h3>
+
+    <!--  -->
+
+    <input id="title" placeholder="Title">
+    <input id="body" placeholder="Body">
+    <button id="submitBtn">Submit</button>
+    <p id="msg"></p>
+
+    <script src="./index.js"></script>
+</body>
+</html>
