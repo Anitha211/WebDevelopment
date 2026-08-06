@@ -1,9 +1,10 @@
 import React from "react";
-import A from "./17-07-2026(Optimization Techniques)/A";
-import Todo from "./17-07-2026(Optimization Techniques)/Todo";
-import Product from "./17-07-2026(Optimization Techniques)/Product";
 
-
+import Counter from "./06-08-2026/local State/useState";
+import Count from "./06-08-2026/local State/useReducer";
+import Form from "./06-08-2026/local State/Form";
+import Countcontext from "./06-08-2026/Global State/Context API/Countcontext";
+import DisplayTheme from "./06-08-2026/Global State/Context API/DisplayTheme";
 
 function App() {
 
@@ -11,15 +12,21 @@ function App() {
 
     <div style={{ textAlign: "center" }}>
 
-      <A/>
+      <Counter/>
+
+      <Count/>
+      <br></br>
+      <Form/>
 
       <hr/>
 
-      <Todo/>
+      <h2>Context API</h2>
 
-      <hr/>
+      <Countcontext/>
 
-      <Product/>
+      <br/><br/>
+
+      <DisplayTheme/>
 
     </div>
 
